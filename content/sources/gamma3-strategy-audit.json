@@ -1,0 +1,36 @@
+{
+  "all_checks_passed": true,
+  "Gamma3": "N",
+  "winning_mouth": [
+    0,
+    0,
+    13
+  ],
+  "source_sha256": "9ebbfc9d663e8e9c5dc11d2b5a4f8f0c207832828aa3a9b348412e6cc997a2a0",
+  "strategy_sha256": "c89bfd4df2001f8878f0cc25945633fb6e27758ca8a21fae44369f3c5969b885",
+  "side_mouths": 27,
+  "global_prefix": 378,
+  "neighbor_prefix": 364,
+  "global_tail_residues": 144,
+  "neighbor_tail_residues": 144,
+  "standard_to_original": "(u,v,w) -> (v,w,u)",
+  "minimal_parity_tail_a": 34,
+  "minimal_inverse_parity_tail_n": 46,
+  "parity_tail": "H(a)=a+15 for even a, a+11 for odd a",
+  "full_global_exception_set": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14
+  ],
+  "normal_finite_height_replay_states": 60571,
+  "no_new_height_rows_or_game_tree": true
+}

@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Public mirror hashes describe exact bytes; never normalize these archives.
+content/sources/** -text

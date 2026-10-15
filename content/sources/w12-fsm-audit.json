@@ -1,0 +1,14 @@
+{
+  "auditor_optimization": "Cached exact coordinate cuts only; original height recurrence and every FSM obligation unchanged",
+  "source_read_only": "research_lines\\omega3\\working\\j_focus30\\Wk2\\Wk2_named_complete_certificate.json",
+  "rows_certified": 40,
+  "affine_FSM_rows": 15,
+  "constant_lock_rows": 25,
+  "finite_height_values_checked": 564,
+  "all_active_prefix_obligations": 309,
+  "independent_small_ordinary_P_roots": 46,
+  "ordinary_P_states": 360,
+  "closure_and_relative_downclosure_checked": true,
+  "all_FSM_states_and_geometric_locks_checked": true,
+  "all_checks_passed": true
+}

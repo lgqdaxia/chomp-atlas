@@ -1,0 +1,22 @@
+{
+  "verified": true,
+  "certificate_sha256": "2f641a14fef329b2b8ab05072031faa6b21087ad3c6dfd6f2cf90acc30813cf0",
+  "strategy_sha256": "e884b14a7c55985e2e92fe3665740edff516535faaed61c94cc5eb20bcece86d",
+  "table_sha256": "f53e358fcad7a92825a6f31a1cca6257869600c2fdf4b3ffd7221bb50be4b984",
+  "states": 2417,
+  "P_states": 320,
+  "P_safe_edges": 4658,
+  "N_P_witness_edges": 2097,
+  "total_edges": 6755,
+  "all_exact_coordinate_PN_checked": true,
+  "all_old_source_states_and_edges_transposed_exactly": true,
+  "all_31_strategy_mouths_and_human_table_verified": true,
+  "complete_P_closure": 2417,
+  "maximum_response_pairs": 15,
+  "true_omega_W24_global7_interface": true,
+  "M4_7_is_N_via_2002_not_P": true,
+  "T2_7_is_N_via_1004": true,
+  "T2_old_low_1_to_6_N_actual_witnesses_checked": true,
+  "T2_unique_common_P_height_bound": ">7, without a finiteness claim",
+  "new_game_states_constructed": 0
+}

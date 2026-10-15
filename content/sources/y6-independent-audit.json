@@ -1,0 +1,295 @@
+{
+  "verified": true,
+  "method": "original coordinate sets; no constructor imports",
+  "source": "research_lines/omega3/working/j_focus32/Y6/Y6_height5_existing_complete_certificate.json",
+  "source_sha256": "6e8f35e1a02b31f8a80f11c87a45473bba7869322bb07022164bd5c1b872cfdb",
+  "old29_sha256": "5d04f6287a87505f3f5098af514c11c5c6dbd8f2cd84f9300304febf7f1a3f33",
+  "old30_sha256": "d8a9d9d6fd333ef116f9af3036069ce0e8098e7c471b4a37865a36cb545d3158",
+  "root_id": 891,
+  "root_height": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    0,
+    5,
+    0,
+    0
+  ],
+  "root_points": 30,
+  "root_safe_mouths": 29,
+  "counts": {
+    "nodes": 892,
+    "P_nodes": 109,
+    "N_nodes": 783,
+    "P_edges": 1514,
+    "N_edges": 783
+  },
+  "total_edges": 2297,
+  "all_exported_rows_exact_old29_projection": true,
+  "old29_root_id": 27542,
+  "old30_root_id": 32846,
+  "Y7_to_Y6_mouth": [
+    2,
+    1,
+    0
+  ],
+  "Y6_omega_height": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    0,
+    null,
+    0,
+    0
+  ],
+  "Y6_reply": [
+    0,
+    0,
+    5
+  ],
+  "Y6_PN": "N",
+  "all_positive_ordinal_D6_common_heights_P_iff": 5,
+  "Y7_safe_ground_mouths_all_N": true,
+  "Y7_ground_checks": [
+    {
+      "first_mouth": [
+        0,
+        1,
+        0
+      ],
+      "after_first": [
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0
+      ],
+      "reply": [
+        2,
+        0,
+        0
+      ],
+      "P_target": [
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "P_basis": "accepted exact two-adjacent-omega-column P theorem",
+      "finite_counts": null
+    },
+    {
+      "first_mouth": [
+        0,
+        2,
+        0
+      ],
+      "after_first": [
+        null,
+        null,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        0
+      ],
+      "reply": [
+        1,
+        0,
+        0
+      ],
+      "P_target": [
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "P_basis": "accepted exact two-adjacent-omega-column P theorem",
+      "finite_counts": null
+    },
+    {
+      "first_mouth": [
+        1,
+        0,
+        0
+      ],
+      "after_first": [
+        null,
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reply": [
+        0,
+        2,
+        0
+      ],
+      "P_target": [
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "P_basis": "accepted exact two-adjacent-omega-column P theorem",
+      "finite_counts": null
+    },
+    {
+      "first_mouth": [
+        1,
+        1,
+        0
+      ],
+      "after_first": [
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0
+      ],
+      "reply": [
+        0,
+        0,
+        1
+      ],
+      "P_target": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "P_basis": "independently checked original-coordinate old finite P closure",
+      "finite_counts": {
+        "nodes": 9,
+        "P_nodes": 3,
+        "N_nodes": 6,
+        "P_edges": 6,
+        "N_edges": 6
+      }
+    },
+    {
+      "first_mouth": [
+        2,
+        0,
+        0
+      ],
+      "after_first": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reply": [
+        0,
+        0,
+        1
+      ],
+      "P_target": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "P_basis": "independently checked original-coordinate old finite P closure",
+      "finite_counts": {
+        "nodes": 8,
+        "P_nodes": 3,
+        "N_nodes": 5,
+        "P_edges": 6,
+        "N_edges": 5
+      }
+    },
+    {
+      "first_mouth": [
+        2,
+        1,
+        0
+      ],
+      "after_first": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        null,
+        0,
+        0
+      ],
+      "reply": [
+        0,
+        0,
+        5
+      ],
+      "P_target": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        0,
+        5,
+        0,
+        0
+      ],
+      "P_basis": "current complete 30-point audit",
+      "finite_counts": {
+        "nodes": 892,
+        "P_nodes": 109,
+        "N_nodes": 783,
+        "P_edges": 1514,
+        "N_edges": 783
+      }
+    }
+  ],
+  "Y7_and_J_PN": "not determined",
+  "new_game_states_constructed": 0
+}

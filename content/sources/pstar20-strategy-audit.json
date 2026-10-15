@@ -1,0 +1,40 @@
+{
+  "verified": true,
+  "source_sha256": "2973bf850e00b55384f021efa8e28e7e9569808f27fa7559fe027b0ada8fb87f",
+  "strategy_sha256": "1821e2cd0c3d24b275084cd8dac37492dd01a251cbede8603390acfbc873b877",
+  "root": "P20 finite fringe plus two true omega towers",
+  "W25_P": false,
+  "side_responses": {
+    "total": 20,
+    "finite_P": 15,
+    "smaller_infinite_P": 5
+  },
+  "neighbor_prefix_values": 213,
+  "global_prefix_responses": 220,
+  "proved_tail_residues": 48,
+  "minimal_offset_period": 24,
+  "compact_neighbor_from": 26,
+  "compact_global_from": 30,
+  "compact_neighbor_bridge_values": 187,
+  "compact_global_low_bridges": [
+    [
+      30,
+      24
+    ]
+  ],
+  "missing_neighbor_inverse_values": [
+    1,
+    3,
+    4,
+    5
+  ],
+  "height_values_in_frozen_closure": 37033,
+  "all_infinite_progressions_proved": true,
+  "all_low_neighbor_clippings_verified": true,
+  "all_original_coordinate_interfaces_verified": true,
+  "Y7_first0202_PN": "unknown",
+  "Y7_PN": "unknown",
+  "finite_continuation": "Exact finite-height PN permits enumerating safe mouths until the first certified P; strict point count descent terminates.",
+  "infinite_continuation": "All smaller P side rows lie in the verified closed 588-row dependency set; strict fringe descent precedes a finite target.",
+  "new_FSM_rows": 0
+}

@@ -1,0 +1,13 @@
+{
+  "source_read_only": "research_lines\\omega3\\working\\plane_family\\round23\\Gamma3_y13_z13_complete_certificate.json",
+  "rows_certified": 749,
+  "affine_FSM_rows": 278,
+  "constant_lock_rows": 471,
+  "finite_height_values_checked": 96200,
+  "all_active_prefix_obligations": 41374,
+  "independent_small_ordinary_P_roots": 122,
+  "ordinary_P_states": 1064,
+  "closure_and_relative_downclosure_checked": true,
+  "all_FSM_states_and_geometric_locks_checked": true,
+  "all_checks_passed": true
+}

@@ -1,0 +1,103 @@
+{
+  "all_checks_passed": true,
+  "source_sha256": "1c77e784fd793c4986f667604b0c3d4a1ce7e853f301aec9defc9772e85196f9",
+  "FSM_rows": 40,
+  "PN_rows": 40,
+  "P_rows": 5,
+  "all_side_geometry_edges": 180,
+  "targets": [
+    {
+      "label": "W(1,2)",
+      "P": true,
+      "finite_fringe_points": 9
+    }
+  ],
+  "root_side_N_obligations": [
+    {
+      "mouth": [
+        0,
+        1,
+        0
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        0,
+        1,
+        1
+      ],
+      "child_P": false,
+      "child_tail": "affine"
+    },
+    {
+      "mouth": [
+        0,
+        2,
+        0
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        0,
+        2,
+        1
+      ],
+      "child_P": false,
+      "child_tail": "affine"
+    },
+    {
+      "mouth": [
+        1,
+        1,
+        0
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        1,
+        1,
+        1
+      ],
+      "child_P": false,
+      "child_tail": "affine"
+    },
+    {
+      "mouth": [
+        1,
+        2,
+        0
+      ],
+      "child_P": false,
+      "child_tail": "affine"
+    },
+    {
+      "mouth": [
+        1,
+        2,
+        1
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        2,
+        0,
+        0
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    }
+  ],
+  "Y7_first_0211": "N; winning reply1002 then exact xy swap to W12 P",
+  "W(n,2)_classification": "P iff n=1 for n in N union {omega}, by chain cut and n0 boundary",
+  "Y7": "unresolved",
+  "J": "unresolved",
+  "W_main": "unresolved"
+}

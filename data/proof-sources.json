@@ -1,0 +1,679 @@
+{
+  "meta": {
+    "snapshotDate": "2026-10-15",
+    "description": "自有研究正文、完整策略与审核结果的公开镜像。Markdown已转换链接并去除运行调度段；JSON中的本机项目绝对路径递归改为项目相对路径，数学数值和数组保留。原始文件hash与公开文件hash分别记录，不提供运行日志或第三方论文全文。",
+    "identityPolicy": "sha256核本站公开镜像；sourceSha256核父项目原文件。源正文或审核JSON中source_sha256等原冻结身份字段保持原值，只用于溯源。路径规范化改变公开字节，原审核结果验证的是原冻结文件，不能声称公开镜像字节仍满足该原hash绑定。"
+  },
+  "files": [
+    {
+      "sourcePath": "research_lines/omega3/main_problem_2026-10-13.md",
+      "file": "content/sources/root-cuts.md",
+      "sha256": "14c402a02ec53a640f7b4036730a62463baa38bf86ac612b5842e6142321e041",
+      "sourceSha256": "75e768057ca3be2d497b1e402b8daf7950d7bddada089491303f4e47999ff28f",
+      "bytes": 6803,
+      "sourceBytes": 6010,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round006/mainline_interfaces_zh.md",
+      "file": "content/sources/mainline-interfaces.md",
+      "sha256": "ff4e8c91a0d0dcaac87f73296af640aaf087e9320aa618492f76544cd5e2134d",
+      "sourceSha256": "aeac68e59a1fa7d38d7507b8bc0d38f8577e30ec98b289af38edc752566d2bef",
+      "bytes": 2417,
+      "sourceBytes": 1730,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/axis_family/round6/C12_remaining_mouths_2026-10-13.md",
+      "file": "content/sources/c12-interface.md",
+      "sha256": "4e19a95896c8b92c86d641efd4aa612d7fe794b27e16616326415ad20dc83c50",
+      "sourceSha256": "ecc5970b87ad87b2e9f23d09edc12810523ad3bdb518dd31d8c65f0a0186fc61",
+      "bytes": 8826,
+      "sourceBytes": 8001,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/axis_family/round12/J_all_mouths_and_finite_reply_interfaces_zh.md",
+      "file": "content/sources/j-mouths.md",
+      "sha256": "4d444e88cf6e3b9f65d7aaf5aef5aa4c8e1f514e133283fa49d4ca78f6d862ac",
+      "sourceSha256": "92c212012ee46b33b4680f1c35bb768ad07934d0ecb55a6958ab161ebb198e5d",
+      "bytes": 6737,
+      "sourceBytes": 5910,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round028/report_zh.md",
+      "file": "content/sources/j-round28.md",
+      "sha256": "41446755e60d933fe628eb6e6a8065844f115bc5a97590dca874a7a4a1d74dd1",
+      "sourceSha256": "e6104797d9d2c8e9a46b9658bd207a6e9de8c8583e5bda4e15331be210fb7cb6",
+      "bytes": 5332,
+      "sourceBytes": 5356,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/independent/c11_goal/round10/source_audit/C11_non_y_mouths_and_beta_ordinal_scope_independent_reaudit_zh.md",
+      "file": "content/sources/c11-nony-height.md",
+      "sha256": "822dbcae0531a101c05af8d139077e8620db7d42e8412334405435dc3b892357",
+      "sourceSha256": "d6204369d0634ae764f62f2f03242d3ab0a8b1543f669b364f1fceb323c8be0b",
+      "bytes": 6851,
+      "sourceBytes": 6264,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/independent/c11_goal/round18/whole_b/paired_joint_source_transport_strong_and_d_exception_conjectures_zh.md",
+      "file": "content/sources/c11-paired-source-scope.md",
+      "sha256": "608d1daa784dc3cb160a5dd24955f2b4bffe4fe694ed1af0571aae799742d740",
+      "sourceSha256": "ea6256b8e62dc364cab715be8d65729d387a55168e81a07d161cfefd35e2d510",
+      "bytes": 6022,
+      "sourceBytes": 5329,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/independent/c11_goal/round69/report_zh.md",
+      "file": "content/sources/c11-round69.md",
+      "sha256": "1b4686912d424268df3c91ef701e5103e55ea19febd96e9b01e0269f87e29ba5",
+      "sourceSha256": "539ef3e419139c7d8b1c278a659eb642b8442c061dc279d299d59b01b096107d",
+      "bytes": 6316,
+      "sourceBytes": 5794,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/independent/c11_goal/round69/status_verified.json",
+      "file": "content/sources/c11-round69-status.json",
+      "sha256": "dc1d74eca65af140de3aee1e131355ec5cfd91f90b13de5544ed2d55f76fbb75",
+      "sourceSha256": "dc1d74eca65af140de3aee1e131355ec5cfd91f90b13de5544ed2d55f76fbb75",
+      "bytes": 4925,
+      "sourceBytes": 4925,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round038/report_zh.md",
+      "file": "content/sources/published-main-round38.md",
+      "sha256": "6d290eabc739f8e9180e1895dbb0be4819f55ada492e19ad07ef96668a6451f1",
+      "sourceSha256": "2f1405763fb4e85272b7734f0c6ff7092578f0ac50fdd79a1d4910645c49b6b5",
+      "bytes": 11464,
+      "sourceBytes": 11360,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus38/matching_theory/finite_pure_anchor_forces_finite_AW_matching_zh.md",
+      "file": "content/sources/y7-matching-theory.md",
+      "sha256": "cfbb6bd4fc5cd0a391a7f307f926a3463fab4b50579c2e1382b0738009cbd67f",
+      "sourceSha256": "b710658a174af4c3df4bc9cbbe8a0c29ca29cfba70157480392d7e11411f7d58",
+      "bytes": 16261,
+      "sourceBytes": 15305,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus31/plane_theory/Y7_anchor_collision_and_nonmonotone_front_zh.md",
+      "file": "content/sources/y7-anchor-collision.md",
+      "sha256": "3d70b1e0afa90d40a08a00edf084595f499143aa3ffbb0581d533ba78ee87dc5",
+      "sourceSha256": "d8d225b361c7462461b50553c001c0a3a6b1e66a20d7f9205adc03e5faa88060",
+      "bytes": 12051,
+      "sourceBytes": 11123,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/audit_routes/round7/finite_fringe_halting_theorem_zh.md",
+      "file": "content/sources/two-tower-theorem.md",
+      "sha256": "27404b634066daae246327df59587775ac6a99bbf7292e725d91e78b846999c4",
+      "sourceSha256": "f6b7f1d0433cf6f0355964a1e12e2113813a9afedf36988f927f7d7e131122df",
+      "bytes": 10595,
+      "sourceBytes": 9790,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round007/finite_fringe_independent_audit_zh.md",
+      "file": "content/sources/two-tower-theorem-audit.md",
+      "sha256": "627c673fa158e3f1de5f8d9409fd5dcb29b44a7fb5f303c493b8b37c9ce0d4e6",
+      "sourceSha256": "cf1acc76f2f3a714f8733f676b78b2c88757a7b63fa32edb6350dd5787f7a528",
+      "bytes": 6275,
+      "sourceBytes": 5563,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round023/Gamma3_N_proof_zh.md",
+      "file": "content/sources/gamma3-proof.md",
+      "sha256": "056f1ff57d792761bb09828ec9e0c4e7d91795dc9095337549281d99ab4b9fb6",
+      "sourceSha256": "c01e03038dae2ba2f957067391df65cfbf706487c491456a3d0accc13e5d843c",
+      "bytes": 6592,
+      "sourceBytes": 6002,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round023/Gamma3_winning_FSM_verified.json",
+      "file": "content/sources/gamma3-fsm-audit.json",
+      "sha256": "728094a0931e8e5078de0b3aeff2905a20dec964c59a491b5b570692e1e7af26",
+      "sourceSha256": "728094a0931e8e5078de0b3aeff2905a20dec964c59a491b5b570692e1e7af26",
+      "bytes": 510,
+      "sourceBytes": 510,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round023/Gamma3_winning_PN_verified.json",
+      "file": "content/sources/gamma3-pn-audit.json",
+      "sha256": "279d774ca189dd84141bb415765c1fa8d0fc804d98b14e66c7e178dd59292a2c",
+      "sourceSha256": "279d774ca189dd84141bb415765c1fa8d0fc804d98b14e66c7e178dd59292a2c",
+      "bytes": 822,
+      "sourceBytes": 822,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round023/Gamma3_winning_strategy_verified.json",
+      "file": "content/sources/gamma3-strategy-audit.json",
+      "sha256": "0b5e10cff7f2d51d21f8042b90e2128f341c21394647897a202d8f334d12153a",
+      "sourceSha256": "0b5e10cff7f2d51d21f8042b90e2128f341c21394647897a202d8f334d12153a",
+      "bytes": 833,
+      "sourceBytes": 833,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/plane_family/round23/Gamma3_is_N_via_Z3_13_complete_strategy_zh.md",
+      "file": "content/sources/gamma3-strategy.md",
+      "sha256": "3801597523c052a693f1009a51dc98e1dd1afddd1ebb557297b475d8ab6f55bd",
+      "sourceSha256": "6627e9cf04f6f4b5c5026f33199c09719147e01560c51b5ac11421d61e20a7a1",
+      "bytes": 9292,
+      "sourceBytes": 9015,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/plane_family/round23/Gamma3_y13_z13_complete_certificate.json",
+      "file": "content/sources/gamma3-certificate.json",
+      "sha256": "f6f268f882a2aad88396c2d8ece7a96d23c8debaa7f955f0222692d8a0dd9056",
+      "sourceSha256": "9ebbfc9d663e8e9c5dc11d2b5a4f8f0c207832828aa3a9b348412e6cc997a2a0",
+      "bytes": 4171110,
+      "sourceBytes": 3860933,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/plane_family/round23/Gamma3_winning_target_complete_strategy.json",
+      "file": "content/sources/gamma3-strategy.json",
+      "sha256": "c2ad2a287b9f713236d48d3ab00993b319fb0383883714624238c7cf428fadfa",
+      "sourceSha256": "c89bfd4df2001f8878f0cc25945633fb6e27758ca8a21fae44369f3c5969b885",
+      "bytes": 146510,
+      "sourceBytes": 146528,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/plane_family/round24/Y1_N_and_R15_complete_strategy_zh.md",
+      "file": "content/sources/y1-strategy.md",
+      "sha256": "fc6e3e228f261064095199a5e00420436de94ae604458b8bd0bfe1f11fcd2e06",
+      "sourceSha256": "d0febcddb5a43ba3178a28116290c5c3b7eb900a80a76f299171211f18d2ee1f",
+      "bytes": 9477,
+      "sourceBytes": 10522,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/plane_family/round24/Y1_winning_target_complete_strategy.json",
+      "file": "content/sources/y1-strategy.json",
+      "sha256": "cffc7597a942fa070c0d385a654cfa3cfbf3c0f3da67b0dce5a8ce3f0d020cd3",
+      "sourceSha256": "391175b210c1f6ae475cc97064c59aaf81a39471b47dbd7b6f76961bb066d41b",
+      "bytes": 310177,
+      "sourceBytes": 310195,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round024/Y1_R15_FSM_verified.json",
+      "file": "content/sources/y1-fsm-audit.json",
+      "sha256": "9466e061a7c2cd014da50133900ad2c0ae3fc32a2db686f4f04e83b01bd880f8",
+      "sourceSha256": "8d3d0bbda7cf3f0300a47f1d059edb2c0fc5e18056b5b0c05522d07ef0270a84",
+      "bytes": 627,
+      "sourceBytes": 647,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round024/Y1_R15_PN_verified.json",
+      "file": "content/sources/y1-pn-audit.json",
+      "sha256": "77e6b28827a6b0099002f76ac0fb336313787b4f864e5e9ad2b78a3ab1ddccfe",
+      "sourceSha256": "77e6b28827a6b0099002f76ac0fb336313787b4f864e5e9ad2b78a3ab1ddccfe",
+      "bytes": 1990,
+      "sourceBytes": 1990,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round024/Y1_R15_strategy_verified.json",
+      "file": "content/sources/y1-strategy-audit.json",
+      "sha256": "d515d95e38485fc38fbe144a5b161fa11739f5f9fe96d6f415ffe3bc07e2b591",
+      "sourceSha256": "d515d95e38485fc38fbe144a5b161fa11739f5f9fe96d6f415ffe3bc07e2b591",
+      "bytes": 1022,
+      "sourceBytes": 1022,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus32/Y6/Y6_N_global5_complete_strategy_and_Y7_ground_zh.md",
+      "file": "content/sources/y6-proof.md",
+      "sha256": "b7671f37ffecf4e71292cf1187a017dea2cf0be31d0db7f2412033a0e7b08f98",
+      "sourceSha256": "3d738849dbc63d78bafaff5919ea9c725ec5734378e2954a64ce5219f2253148",
+      "bytes": 11601,
+      "sourceBytes": 10458,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus32/Y6/Y6_height5_existing_complete_certificate.json",
+      "file": "content/sources/y6-certificate.json",
+      "sha256": "2698ef815ff2ace8f410495285ab60d38122434276bad6fe2adf4d68118811d5",
+      "sourceSha256": "6e8f35e1a02b31f8a80f11c87a45473bba7869322bb07022164bd5c1b872cfdb",
+      "bytes": 452656,
+      "sourceBytes": 125186,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus32/Y6/Y6_height5_root_coordinates_verified.json",
+      "file": "content/sources/y6-pn-audit.json",
+      "sha256": "3113fa18a0c1e8fee0bbcf99c98dfcf1e9742778bac360d3c14a03bba3d7ebc1",
+      "sourceSha256": "d9a652d33b66f7ee99baf34e1dbefad6f3736f2a88793e4603887eedf7de50ec",
+      "bytes": 2447,
+      "sourceBytes": 2445,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus32/Y6_audit/Y6_height5_independent_coordinates_verified.json",
+      "file": "content/sources/y6-independent-audit.json",
+      "sha256": "b53f0f6406f232d07eb69512a1540a8b39ee8b88259dd075799a59c667d1f2d1",
+      "sourceSha256": "681c6aa7cf9ee97b82ddbf6bfdeafb3f3b4b5d34b2b0c65b437e97a8dd840adc",
+      "bytes": 4943,
+      "sourceBytes": 4963,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round029/Y8_N_and_finite_P_height5_proof_zh.md",
+      "file": "content/sources/y8-proof.md",
+      "sha256": "e858bff580b151d0bcd61de6dd280ed013b1d98ae43ea85c0d6bff9da51c0d3c",
+      "sourceSha256": "4a3dac83a1f6367fb6f67d72ae7bb3aee94544991b958086057b719927d9066f",
+      "bytes": 3486,
+      "sourceBytes": 2922,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus29/y8_finite/finite_Y8_sections_certificate.json",
+      "file": "content/sources/y8-certificate.json",
+      "sha256": "4596470296ce118722ec8946e473a5585095365ef43c4ede62ae5c6a8eb0995a",
+      "sourceSha256": "cd267ca97bd0cb4c0566d049cd68da2758e560903392fe6e14fdb56121ab06f7",
+      "bytes": 3608619,
+      "sourceBytes": 940855,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus29/y8_finite/finite_Y8_sections_root_verified.json",
+      "file": "content/sources/y8-pn-audit.json",
+      "sha256": "8a5920cbe3c54143e411aabf0c02e83c4ccc13b0c6d984738e8b0ac15a9a371f",
+      "sourceSha256": "c7aa34ed29353ba5d4e2f9b55d2d2d1dea8f5a4f02d17faa2aff5603fc59f894",
+      "bytes": 906,
+      "sourceBytes": 904,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus29/y8_audit/finite_Y8_sections_points_verified.json",
+      "file": "content/sources/y8-independent-audit.json",
+      "sha256": "8e82ccd97a91a3ca7e71378d2851c438bd15bda9f1869758ba55128442bba6bc",
+      "sourceSha256": "39a5603b5ca8e1a5c5d68fcbf65dc25f174908c5a8c1de1e800e454738186f42",
+      "bytes": 4128,
+      "sourceBytes": 4148,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus30/Wk2/W12_P_and_complete_k2_row_strategy_zh.md",
+      "file": "content/sources/w12-proof.md",
+      "sha256": "30db470d6f29e8579525eb29c7a06c3d02ea2a881950901c17df6d69a251589a",
+      "sourceSha256": "6bb980dc1b09f910c415c21a072f1a0089c1bdad7430c25d403d7aa118a2b510",
+      "bytes": 9131,
+      "sourceBytes": 8487,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus30/Wk2/Wk2_named_complete_certificate.json",
+      "file": "content/sources/w12-certificate.json",
+      "sha256": "c31220a6854343f6ad21a9dff894345b8da8da978abb3aee1ce386b43f2e78be",
+      "sourceSha256": "1c77e784fd793c4986f667604b0c3d4a1ce7e853f301aec9defc9772e85196f9",
+      "bytes": 81211,
+      "sourceBytes": 75754,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus30/Wk2/W12_complete_strategy.json",
+      "file": "content/sources/w12-strategy.json",
+      "sha256": "978266019cbc3136b0fcabf45b75cd820c10f9f5347bdce86f3fc568ce908d74",
+      "sourceSha256": "b574f64149bdd24a6b182b12ccd4d27498c9a197cff44cf68ca7c888da9c0626",
+      "bytes": 28024,
+      "sourceBytes": 25919,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus30/Wk2/Wk2_FSM_root_verified.json",
+      "file": "content/sources/w12-fsm-audit.json",
+      "sha256": "7a397ee143baa2f3f56f1d055a97cdd45d955942f4a8579e8be01fe34adf362b",
+      "sourceSha256": "7a397ee143baa2f3f56f1d055a97cdd45d955942f4a8579e8be01fe34adf362b",
+      "bytes": 616,
+      "sourceBytes": 616,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus30/Wk2/Wk2_PN_root_verified.json",
+      "file": "content/sources/w12-pn-audit.json",
+      "sha256": "03cfb8f6759a2676dbd5635eadea91805a73c2b3d4b3dc9251e0825e5bac3911",
+      "sourceSha256": "9d16e962c8c031d12bc6d21f4a7553b26e2c2730ed0adefefceb6d91f0f04b7d",
+      "bytes": 1808,
+      "sourceBytes": 1806,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round030/W12_complete_strategy_root_verified.json",
+      "file": "content/sources/w12-strategy-audit.json",
+      "sha256": "d84ca88ae06440d01a176d0b802011c4fe3a41ec503dee3d97a9483ed6ad804f",
+      "sourceSha256": "d84ca88ae06440d01a176d0b802011c4fe3a41ec503dee3d97a9483ed6ad804f",
+      "bytes": 850,
+      "sourceBytes": 850,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus31/Wk3/W53_P_complete_strategy_and_row_column_zh.md",
+      "file": "content/sources/w53-proof.md",
+      "sha256": "9ebacf91ee4800f67d78875b29fedb4b08cf9e04b4be0ff97578da79b0dd0bf9",
+      "sourceSha256": "bc03e09c68d247eb550aeb2f76bb82d6340353917771c4ad811d42e21a327798",
+      "bytes": 10553,
+      "sourceBytes": 10597,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus31/Wk3/Wk3_named_complete_certificate.json",
+      "file": "content/sources/w53-certificate.json",
+      "sha256": "f187cc2bbfe4d4e9ea1dbc05a0c9c2a5fb7104ecbd73d4072d097260d390f3c1",
+      "sourceSha256": "35ee851a3c94ad57e7f85830b39b4d6b7ca41b6010975f12f3b257c2a8c5b53a",
+      "bytes": 981497,
+      "sourceBytes": 912763,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus31/Wk3/W53_complete_strategy.json",
+      "file": "content/sources/w53-strategy.json",
+      "sha256": "d400727ab8dbb66a0a2a543afa352e6dfbffa68c2fee8cbdb7e759168226c5a9",
+      "sourceSha256": "983088956984fb9d3d54594f9d9864a9cd52665799f0f3bd3068b8914b74e82a",
+      "bytes": 99835,
+      "sourceBytes": 92339,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus31/Wk3/Wk3_FSM_root_verified.json",
+      "file": "content/sources/w53-fsm-audit.json",
+      "sha256": "2c2207d6aa97cd6d38ad82adb89a5da6eeedbd4ec74ff94afe3d06cc55c507f2",
+      "sourceSha256": "c78c82e94bc9139208d2602b5f46e7f8e2eedceb014020bbc05422cd41d37918",
+      "bytes": 616,
+      "sourceBytes": 636,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus31/Wk3/Wk3_PN_root_verified.json",
+      "file": "content/sources/w53-pn-audit.json",
+      "sha256": "55fcdc6ecb9d7feec25bc224966b03ee2176a66cce5d2b00d54d404d99de1e8c",
+      "sourceSha256": "9bf3baaca05fdd58e53e16be12b75dd1f9f61d1aae8780edd4fb9a3fe9270be4",
+      "bytes": 3575,
+      "sourceBytes": 3573,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round031/W53_complete_strategy_root_verified.json",
+      "file": "content/sources/w53-strategy-audit.json",
+      "sha256": "57aede30bea68f532c99bd84cdac1ca7a51a4debf6a51055e7517b229b8323ae",
+      "sourceSha256": "57aede30bea68f532c99bd84cdac1ca7a51a4debf6a51055e7517b229b8323ae",
+      "bytes": 1612,
+      "sourceBytes": 1612,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus37/W24/W24_N_and_P32_complete_strategy_zh.md",
+      "file": "content/sources/w24-proof.md",
+      "sha256": "39375dd0ddd98ae7df3eba8f340f6952acf2c011f9ac814481d2f24f498e42d5",
+      "sourceSha256": "53e10ddc0ed897a28835d4453672b1f920840792d3f311031c1953f7d232a933",
+      "bytes": 7410,
+      "sourceBytes": 7872,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus37/W24/W24_P32_all_mouths_table_zh.md",
+      "file": "content/sources/w24-tables.md",
+      "sha256": "89b8ea18a3f9b67b0048f6cd5f5145f502f376f05160efa339baf061f80048cc",
+      "sourceSha256": "f53e358fcad7a92825a6f31a1cca6257869600c2fdf4b3ffd7221bb50be4b984",
+      "bytes": 2624,
+      "sourceBytes": 2008,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus37/W24/W24_complete_certificate.json",
+      "file": "content/sources/w24-certificate.json",
+      "sha256": "8264627bccf96696a6ebe032ea3ae4d1b6ae60cfa8ea8d0e352e7eb2033fae1e",
+      "sourceSha256": "ef6c2cb6a285ea0ae1da825b28608b61d66c21068f5ad5ea7c01c2c763b04765",
+      "bytes": 883554,
+      "sourceBytes": 820764,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus37/W24/W24_global7_P32_existing_complete_certificate.json",
+      "file": "content/sources/p32-certificate.json",
+      "sha256": "4121ca84dcbdad4d45629d3a492409796e953a3d886fdf94609acfbe53e30af6",
+      "sourceSha256": "2f641a14fef329b2b8ab05072031faa6b21087ad3c6dfd6f2cf90acc30813cf0",
+      "bytes": 1308673,
+      "sourceBytes": 366837,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus37/W24/W24_P32_complete_strategy.json",
+      "file": "content/sources/p32-strategy.json",
+      "sha256": "c05893933057208f86ff206ffab445af3db9dffc329ddbf4589fb553273cd477",
+      "sourceSha256": "e884b14a7c55985e2e92fe3665740edff516535faaed61c94cc5eb20bcece86d",
+      "bytes": 18593,
+      "sourceBytes": 17385,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus37/W24_audit/W24_FSM_independent_verified.json",
+      "file": "content/sources/w24-fsm-audit.json",
+      "sha256": "82d9f0bfbe8d37eafebed153e2d8c1aef28565d7ccc7ec8878d85b1abc544e34",
+      "sourceSha256": "6da2d5406c2dd7c005a5d823e1b4b92093eebedc05cb05ffc94f654f32c5f046",
+      "bytes": 610,
+      "sourceBytes": 630,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus37/W24_audit/W24_PN_geometry_independent_verified.json",
+      "file": "content/sources/w24-pn-audit.json",
+      "sha256": "d095bd3f8fd8242bfae12ddc9e90133c19442366028a2fa80af52a12e34c0aa3",
+      "sourceSha256": "64745e5906a131a0840ac6fe2e9e050cc8612d877c5aa432d5b18a8b73b7354e",
+      "bytes": 22814,
+      "sourceBytes": 22834,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus37/W24_audit/P32_projection_strategy_independent_verified.json",
+      "file": "content/sources/p32-strategy-audit.json",
+      "sha256": "7e49b3ed4366f8f1c4d341fabd1ad4d4b56dd5060725b5f5717fe06309387b6b",
+      "sourceSha256": "7e49b3ed4366f8f1c4d341fabd1ad4d4b56dd5060725b5f5717fe06309387b6b",
+      "bytes": 924,
+      "sourceBytes": 924,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus38/W25/W25_N_and_Pstar20_complete_strategy_zh.md",
+      "file": "content/sources/w25-proof.md",
+      "sha256": "26ff1aae66f6c32b09c30c298ea83ed5cc50c91b3341887cfb842f3e3534429a",
+      "sourceSha256": "a94881b23b4ff53b288a9f020c4d466f829dc5f6c2b9ee1d69661a9881a2d77b",
+      "bytes": 10159,
+      "sourceBytes": 10920,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus38/W25/Pstar20_complete_mouth_tables_zh.md",
+      "file": "content/sources/pstar20-tables.md",
+      "sha256": "dd0249bfe0c4205363fe1ab3fafb65ad619cbbd1e6b77db21d3f62c7b9ad7e82",
+      "sourceSha256": "7170d9b5e286f3d49d2c3121a6f69510b88b95fc09b104394c08efb438803a3f",
+      "bytes": 3859,
+      "sourceBytes": 3238,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus38/W25/W25_complete_certificate.json",
+      "file": "content/sources/w25-certificate.json",
+      "sha256": "c56fba69b66ec12fc2be7ff906bac07b93a18502ac6b143b3344de3e6acc5685",
+      "sourceSha256": "2973bf850e00b55384f021efa8e28e7e9569808f27fa7559fe027b0ada8fb87f",
+      "bytes": 2116159,
+      "sourceBytes": 1963783,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus38/W25/W25_P20_complete_strategy.json",
+      "file": "content/sources/pstar20-strategy.json",
+      "sha256": "0fdc7a784ad7b30919e5aca0c1b9f52549fcc813540f33ac85c46132dd77adb1",
+      "sourceSha256": "1821e2cd0c3d24b275084cd8dac37492dd01a251cbede8603390acfbc873b877",
+      "bytes": 100233,
+      "sourceBytes": 92629,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus38/W25_audit/W25_FSM_independent_verified.json",
+      "file": "content/sources/w25-fsm-audit.json",
+      "sha256": "e9c14ee0668360d38db1f9ec6219b268a59ec97f21ff61a5f391e6618f1c61ae",
+      "sourceSha256": "040d85faae3be51e89c773f5e48a77b535d6876fea0c8f228f0bcfe3e22b9c6b",
+      "bytes": 612,
+      "sourceBytes": 632,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus38/W25_audit/W25_PN_geometry_independent_verified.json",
+      "file": "content/sources/w25-pn-audit.json",
+      "sha256": "4f977ee316acacc4243b10da5f15cc37044ba3b7140283f173bb3053018af335",
+      "sourceSha256": "e6dede7b420a06226ecf2c777e67798163fa5fe98ba9261903cafe1fb5fd2579",
+      "bytes": 33117,
+      "sourceBytes": 33137,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus38/W25_audit/P20_complete_strategy_independent_verified.json",
+      "file": "content/sources/pstar20-strategy-audit.json",
+      "sha256": "c36e6b627d0400fc0628e0c3cffb669f4ef5ba41ec3224798690bac0be993204",
+      "sourceSha256": "c36e6b627d0400fc0628e0c3cffb669f4ef5ba41ec3224798690bac0be993204",
+      "bytes": 1346,
+      "sourceBytes": 1346,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/j_focus38/W25_audit/W25_N_P20_full_strategy_and_scope_independent_audit_zh.md",
+      "file": "content/sources/w25-full-audit.md",
+      "sha256": "f44231309db25a37207d432746b69663160c72e953fddc5d95d371f66bca2129",
+      "sourceSha256": "d14c6fcf361870437e2635cd02608ec711158bf9e8e544389b181dfd1c8ccdb0",
+      "bytes": 6642,
+      "sourceBytes": 5880,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/axis_family/round7/J5_and_M45_proof_2026-10-13.md",
+      "file": "content/sources/j5-proof.md",
+      "sha256": "6a7e533b47609b437588ce4cc7014fa337c133a6ce0d448d0592ba777afec85f",
+      "sourceSha256": "5f95f89841b3a8f5779e1ff3a544157b64485afed21a0a98891fb7762cd12509",
+      "bytes": 8766,
+      "sourceBytes": 8132,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/axis_family/round7/J5_height_certificate.json",
+      "file": "content/sources/j5-height-certificate.json",
+      "sha256": "ae0cfc90abe8ee70dc42c0a553dcb9ab15dd8765d2afd46e7c13b77730d155f2",
+      "sourceSha256": "ae0cfc90abe8ee70dc42c0a553dcb9ab15dd8765d2afd46e7c13b77730d155f2",
+      "bytes": 286175,
+      "sourceBytes": 286175,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/axis_family/round7/J5_infinite_kernel_certificate.json",
+      "file": "content/sources/j5-kernel-certificate.json",
+      "sha256": "62d07cd118319b3f60d21f9d0d59bcfe3559116980dfe9a86dd4882ac117f6df",
+      "sourceSha256": "62d07cd118319b3f60d21f9d0d59bcfe3559116980dfe9a86dd4882ac117f6df",
+      "bytes": 290017,
+      "sourceBytes": 290017,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/axis_family/round7/J5_height_verified.json",
+      "file": "content/sources/j5-height-audit.json",
+      "sha256": "821749b8683e2fa85f31b5b23f0b00c43816e20ce5eb73109ce4d42ac994022a",
+      "sourceSha256": "821749b8683e2fa85f31b5b23f0b00c43816e20ce5eb73109ce4d42ac994022a",
+      "bytes": 327,
+      "sourceBytes": 327,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/axis_family/round7/J5_kernels_and_strategy_verified.json",
+      "file": "content/sources/j5-strategy-audit.json",
+      "sha256": "a23ade8f220a5b788c0909c90390b1161cec26afd7bc574188c952976c9daf69",
+      "sourceSha256": "a23ade8f220a5b788c0909c90390b1161cec26afd7bc574188c952976c9daf69",
+      "bytes": 19812,
+      "sourceBytes": 19812,
+      "transformation": "public-mirror-with-recursive-project-path-normalization; mathematical values and original identity hash fields preserved",
+      "normalizationNote": "全部JSON字符串内的本机项目绝对前缀已改为项目相对路径；数组和数学数值未改。原冻结哈希字段只用于溯源，不能与本公开文件字节混同。"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/round005/periodic_mex_induction_zh.md",
+      "file": "content/sources/periodic-mex.md",
+      "sha256": "41d4e11deed02e4abbc39fa6915475f9022dbdd9e74b6369972c3bae29ef981a",
+      "sourceSha256": "7fca89eb203af995ff904ce9ae9a20937cc041d1fe2d532f8bc1da4f07683982",
+      "bytes": 7048,
+      "sourceBytes": 6263,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    },
+    {
+      "sourcePath": "research_lines/omega3/working/plane_family/round7/axis117_J5_M45_independent_audit_2026-10-13.md",
+      "file": "content/sources/j5-independent-audit.md",
+      "sha256": "c277e124ffe2e277acab6bc74e8c99efed78f66a1ee86eec6abe05cb53c3c0b6",
+      "sourceSha256": "27be10733a9fb3ae0a6e806e60c22ef310671a119556307bbae3a71940adf248",
+      "bytes": 6022,
+      "sourceBytes": 5436,
+      "transformation": "public-mirror-with-link-rewrite-and-operational-redaction"
+    }
+  ],
+  "omitted": [
+    {
+      "sourcePath": "research_lines/omega3/working/plane_family/round24/Y1_R15_complete_certificate.json",
+      "reason": "单个文件18,298,169字节，超过5MB上限；本版提供完整人读策略、策略JSON和审核结果，但不能宣称仅凭本镜像完整重放该1215行证书。",
+      "bytes": 18298169,
+      "sha256": "6262312298db806ebd38104bac0e19bb2501595ca4dba013a7eb95b4c71f0f16"
+    }
+  ]
+}

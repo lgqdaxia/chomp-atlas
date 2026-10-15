@@ -1,0 +1,42 @@
+{
+  "all_checks_passed": true,
+  "source_sha256": "9ebbfc9d663e8e9c5dc11d2b5a4f8f0c207832828aa3a9b348412e6cc997a2a0",
+  "rows": 749,
+  "P_rows": 46,
+  "affine_rows": 278,
+  "side_geometries": 10072,
+  "constant_global_geometries": 471,
+  "reused_rows": 599,
+  "new_dependency_rows": 150,
+  "targets": [
+    {
+      "label": "Gamma3 globaly13",
+      "P": false,
+      "original_mouth": [
+        0,
+        13,
+        0
+      ]
+    },
+    {
+      "label": "Gamma3 globalz13",
+      "P": true,
+      "original_mouth": [
+        0,
+        0,
+        13
+      ]
+    }
+  ],
+  "deduced_from_commuting_global_mouths": [],
+  "Gamma3": "N",
+  "certified_winning_mouths": [
+    [
+      0,
+      0,
+      13
+    ]
+  ],
+  "no_constructor_import": true,
+  "no_new_game_tree_or_FSM": true
+}

@@ -1,0 +1,205 @@
+{
+  "all_checks_passed": true,
+  "source_sha256": "35ee851a3c94ad57e7f85830b39b4d6b7ca41b6010975f12f3b257c2a8c5b53a",
+  "FSM_rows": 300,
+  "PN_rows": 300,
+  "P_rows": 29,
+  "actual_side_edges": 2550,
+  "targets": [
+    {
+      "n": 2,
+      "P": false,
+      "record_kind": "finite-side",
+      "global_height": null,
+      "side_mouth": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "n": 3,
+      "P": false,
+      "record_kind": "finite-global",
+      "global_height": 16,
+      "side_mouth": null
+    },
+    {
+      "n": 4,
+      "P": false,
+      "record_kind": "finite-global",
+      "global_height": 8,
+      "side_mouth": null
+    },
+    {
+      "n": 5,
+      "P": true,
+      "record_kind": "all-fringe-children-N",
+      "global_height": null,
+      "side_mouth": null
+    }
+  ],
+  "root_side_N_obligations": [
+    {
+      "mouth": [
+        0,
+        1,
+        0
+      ],
+      "child_P": false,
+      "child_tail": "affine"
+    },
+    {
+      "mouth": [
+        0,
+        1,
+        1
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        0,
+        1,
+        2
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        0,
+        2,
+        0
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        0,
+        2,
+        1
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        0,
+        2,
+        2
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        1,
+        1,
+        0
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        1,
+        1,
+        1
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        1,
+        1,
+        2
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        1,
+        2,
+        0
+      ],
+      "child_P": false,
+      "child_tail": "affine"
+    },
+    {
+      "mouth": [
+        1,
+        2,
+        1
+      ],
+      "child_P": false,
+      "child_tail": "affine"
+    },
+    {
+      "mouth": [
+        1,
+        2,
+        2
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        2,
+        0,
+        0
+      ],
+      "child_P": false,
+      "child_tail": "affine"
+    },
+    {
+      "mouth": [
+        2,
+        0,
+        1
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        2,
+        0,
+        2
+      ],
+      "child_P": false,
+      "child_tail": "affine"
+    },
+    {
+      "mouth": [
+        2,
+        0,
+        3
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    },
+    {
+      "mouth": [
+        2,
+        0,
+        4
+      ],
+      "child_P": false,
+      "child_tail": "constant"
+    }
+  ],
+  "exact_Y7_two_cut_orders": true,
+  "Y7_first_025": "N; winning reply1003 to xy swap of W53 P",
+  "k3_all_n": "P iff n=5 for n in N union {omega}",
+  "n5_all_k": "P iff k=3 for k in N union {omega}",
+  "unbounded_geometry": "finite representatives above all box thresholds plus symbolic omega; full families justified by cuts",
+  "Y7": "unresolved",
+  "J": "unresolved",
+  "W_main": "unresolved"
+}

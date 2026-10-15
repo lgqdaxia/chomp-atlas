@@ -1,0 +1,39 @@
+{
+  "all_checks_passed": true,
+  "T1": "N",
+  "winning_mouth": [
+    1,
+    0,
+    2
+  ],
+  "source_sha256": "1c77e784fd793c4986f667604b0c3d4a1ce7e853f301aec9defc9772e85196f9",
+  "strategy_sha256": "b574f64149bdd24a6b182b12ccd4d27498c9a197cff44cf68ca7c888da9c0626",
+  "side_mouths": 9,
+  "global_prefix": 57,
+  "neighbor_prefix": 54,
+  "global_tail_residues": 4,
+  "neighbor_tail_residues": 4,
+  "permutation": [
+    1,
+    0,
+    2
+  ],
+  "minimal_compressed_tail_a": 4,
+  "minimal_compressed_inverse_tail_n": 8,
+  "compressed_period": 2,
+  "compressed_offsets": [
+    2,
+    4
+  ],
+  "compressed_inverse_period": 2,
+  "compressed_inverse_offsets": [
+    2,
+    4
+  ],
+  "full_global_exception_set": [
+    1,
+    3
+  ],
+  "normal_finite_height_replay_states": 1071,
+  "no_new_height_rows_or_game_tree": true
+}

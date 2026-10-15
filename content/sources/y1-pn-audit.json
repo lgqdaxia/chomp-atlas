@@ -1,0 +1,98 @@
+{
+  "all_checks_passed": true,
+  "source_sha256": "6262312298db806ebd38104bac0e19bb2501595ca4dba013a7eb95b4c71f0f16",
+  "rows": 1215,
+  "P_rows": 72,
+  "affine_rows": 426,
+  "side_geometries": 22040,
+  "constant_global_geometries": 789,
+  "reused_rows": 1079,
+  "new_dependency_rows": 136,
+  "targets": [
+    {
+      "label": "Y1 globalz11",
+      "P": false,
+      "original_mouth": [
+        0,
+        0,
+        11
+      ],
+      "unique_common_height": {
+        "omega_coefficient": 1,
+        "finite_part": 3,
+        "text": "omega*1+3",
+        "restricted_g": 5
+      }
+    },
+    {
+      "label": "Y1 globalz9",
+      "P": false,
+      "original_mouth": [
+        0,
+        0,
+        9
+      ],
+      "unique_common_height": {
+        "omega_coefficient": 2,
+        "finite_part": 1,
+        "text": "omega*2+1",
+        "restricted_g": 7
+      }
+    },
+    {
+      "label": "Y1 globalz10",
+      "P": false,
+      "original_mouth": [
+        0,
+        0,
+        10
+      ],
+      "unique_common_height": {
+        "omega_coefficient": 0,
+        "finite_part": 15,
+        "text": "15"
+      }
+    },
+    {
+      "label": "Y1 globalz14",
+      "P": false,
+      "original_mouth": [
+        0,
+        0,
+        14
+      ],
+      "unique_common_height": {
+        "omega_coefficient": 1,
+        "finite_part": 4,
+        "text": "omega*1+4",
+        "restricted_g": 6
+      }
+    },
+    {
+      "label": "Y1 globalz15",
+      "P": true,
+      "original_mouth": [
+        0,
+        0,
+        15
+      ],
+      "unique_common_height": {
+        "omega_coefficient": 1,
+        "finite_part": 0,
+        "text": "omega*1+0",
+        "restricted_g": 0
+      }
+    }
+  ],
+  "deduced_from_commuting_global_mouths": [],
+  "Y1": "N",
+  "certified_winning_mouths": [
+    [
+      0,
+      0,
+      15
+    ]
+  ],
+  "no_constructor_import": true,
+  "no_new_game_tree_or_FSM": true
+}

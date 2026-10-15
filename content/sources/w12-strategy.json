@@ -1,0 +1,2124 @@
+{
+  "source": "research_lines/omega3/working/j_focus30/Wk2/Wk2_named_complete_certificate.json",
+  "source_sha256": "1c77e784fd793c4986f667604b0c3d4a1ce7e853f301aec9defc9772e85196f9",
+  "root_label": "W(1,2)",
+  "root_P": true,
+  "root_boxes": [
+    [
+      2,
+      1,
+      null
+    ],
+    [
+      2,
+      3,
+      2
+    ],
+    [
+      3,
+      1,
+      1
+    ]
+  ],
+  "root_fringe": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      2,
+      0,
+      0
+    ]
+  ],
+  "permutation": [
+    1,
+    0,
+    2
+  ],
+  "original_root_boxes": [
+    [
+      1,
+      2,
+      null
+    ],
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      3,
+      2,
+      2
+    ]
+  ],
+  "mother_boxes": [
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      3,
+      2,
+      null
+    ]
+  ],
+  "mother_P": false,
+  "winning_mouth": [
+    1,
+    0,
+    2
+  ],
+  "Y7_first_mouth": [
+    0,
+    2,
+    1
+  ],
+  "side_mouths": [
+    {
+      "opponent_mouth": [
+        0,
+        1,
+        0
+      ],
+      "reply": [
+        0,
+        0,
+        2
+      ],
+      "kind": "finite-P",
+      "original_opponent_mouth": [
+        1,
+        0,
+        0
+      ],
+      "original_reply": [
+        0,
+        0,
+        2
+      ],
+      "P_boxes": [
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "opponent_mouth": [
+        0,
+        1,
+        1
+      ],
+      "reply": [
+        1,
+        2,
+        0
+      ],
+      "kind": "smaller-infinite-P",
+      "original_opponent_mouth": [
+        1,
+        0,
+        1
+      ],
+      "original_reply": [
+        2,
+        1,
+        0
+      ],
+      "P_boxes": [
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          1,
+          null
+        ],
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "opponent_mouth": [
+        0,
+        2,
+        0
+      ],
+      "reply": [
+        0,
+        0,
+        1
+      ],
+      "kind": "finite-P",
+      "original_opponent_mouth": [
+        2,
+        0,
+        0
+      ],
+      "original_reply": [
+        0,
+        0,
+        1
+      ],
+      "P_boxes": [
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "opponent_mouth": [
+        0,
+        2,
+        1
+      ],
+      "reply": [
+        1,
+        1,
+        1
+      ],
+      "kind": "smaller-infinite-P",
+      "original_opponent_mouth": [
+        2,
+        0,
+        1
+      ],
+      "original_reply": [
+        1,
+        1,
+        1
+      ],
+      "P_boxes": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          null
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "opponent_mouth": [
+        1,
+        1,
+        0
+      ],
+      "reply": [
+        0,
+        0,
+        1
+      ],
+      "kind": "finite-P",
+      "original_opponent_mouth": [
+        1,
+        1,
+        0
+      ],
+      "original_reply": [
+        0,
+        0,
+        1
+      ],
+      "P_boxes": [
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "opponent_mouth": [
+        1,
+        1,
+        1
+      ],
+      "reply": [
+        0,
+        2,
+        1
+      ],
+      "kind": "smaller-infinite-P",
+      "original_opponent_mouth": [
+        1,
+        1,
+        1
+      ],
+      "original_reply": [
+        2,
+        0,
+        1
+      ],
+      "P_boxes": [
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          null
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "opponent_mouth": [
+        1,
+        2,
+        0
+      ],
+      "reply": [
+        0,
+        1,
+        1
+      ],
+      "kind": "smaller-infinite-P",
+      "original_opponent_mouth": [
+        2,
+        1,
+        0
+      ],
+      "original_reply": [
+        1,
+        0,
+        1
+      ],
+      "P_boxes": [
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          1,
+          null
+        ],
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "opponent_mouth": [
+        1,
+        2,
+        1
+      ],
+      "reply": [
+        0,
+        0,
+        3
+      ],
+      "kind": "finite-P",
+      "original_opponent_mouth": [
+        2,
+        1,
+        1
+      ],
+      "original_reply": [
+        0,
+        0,
+        3
+      ],
+      "P_boxes": [
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "opponent_mouth": [
+        2,
+        0,
+        0
+      ],
+      "reply": [
+        0,
+        0,
+        6
+      ],
+      "kind": "finite-P",
+      "original_opponent_mouth": [
+        0,
+        2,
+        0
+      ],
+      "original_reply": [
+        0,
+        0,
+        6
+      ],
+      "P_boxes": [
+        [
+          2,
+          1,
+          6
+        ],
+        [
+          2,
+          3,
+          2
+        ]
+      ]
+    }
+  ],
+  "neighbor_prefix": [
+    {
+      "a": 0,
+      "reply": [
+        0,
+        0,
+        4
+      ],
+      "original_reply": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "a": 1,
+      "reply": [
+        0,
+        0,
+        2
+      ],
+      "original_reply": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "a": 2,
+      "reply": [
+        0,
+        0,
+        7
+      ],
+      "original_reply": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "a": 3,
+      "reply": [
+        0,
+        0,
+        5
+      ],
+      "original_reply": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "a": 4,
+      "reply": [
+        0,
+        0,
+        6
+      ],
+      "original_reply": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "a": 5,
+      "reply": [
+        0,
+        0,
+        9
+      ],
+      "original_reply": [
+        0,
+        0,
+        9
+      ]
+    },
+    {
+      "a": 6,
+      "reply": [
+        0,
+        0,
+        8
+      ],
+      "original_reply": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "a": 7,
+      "reply": [
+        0,
+        0,
+        11
+      ],
+      "original_reply": [
+        0,
+        0,
+        11
+      ]
+    },
+    {
+      "a": 8,
+      "reply": [
+        0,
+        0,
+        10
+      ],
+      "original_reply": [
+        0,
+        0,
+        10
+      ]
+    },
+    {
+      "a": 9,
+      "reply": [
+        0,
+        0,
+        13
+      ],
+      "original_reply": [
+        0,
+        0,
+        13
+      ]
+    },
+    {
+      "a": 10,
+      "reply": [
+        0,
+        0,
+        12
+      ],
+      "original_reply": [
+        0,
+        0,
+        12
+      ]
+    },
+    {
+      "a": 11,
+      "reply": [
+        0,
+        0,
+        15
+      ],
+      "original_reply": [
+        0,
+        0,
+        15
+      ]
+    },
+    {
+      "a": 12,
+      "reply": [
+        0,
+        0,
+        14
+      ],
+      "original_reply": [
+        0,
+        0,
+        14
+      ]
+    },
+    {
+      "a": 13,
+      "reply": [
+        0,
+        0,
+        17
+      ],
+      "original_reply": [
+        0,
+        0,
+        17
+      ]
+    },
+    {
+      "a": 14,
+      "reply": [
+        0,
+        0,
+        16
+      ],
+      "original_reply": [
+        0,
+        0,
+        16
+      ]
+    },
+    {
+      "a": 15,
+      "reply": [
+        0,
+        0,
+        19
+      ],
+      "original_reply": [
+        0,
+        0,
+        19
+      ]
+    },
+    {
+      "a": 16,
+      "reply": [
+        0,
+        0,
+        18
+      ],
+      "original_reply": [
+        0,
+        0,
+        18
+      ]
+    },
+    {
+      "a": 17,
+      "reply": [
+        0,
+        0,
+        21
+      ],
+      "original_reply": [
+        0,
+        0,
+        21
+      ]
+    },
+    {
+      "a": 18,
+      "reply": [
+        0,
+        0,
+        20
+      ],
+      "original_reply": [
+        0,
+        0,
+        20
+      ]
+    },
+    {
+      "a": 19,
+      "reply": [
+        0,
+        0,
+        23
+      ],
+      "original_reply": [
+        0,
+        0,
+        23
+      ]
+    },
+    {
+      "a": 20,
+      "reply": [
+        0,
+        0,
+        22
+      ],
+      "original_reply": [
+        0,
+        0,
+        22
+      ]
+    },
+    {
+      "a": 21,
+      "reply": [
+        0,
+        0,
+        25
+      ],
+      "original_reply": [
+        0,
+        0,
+        25
+      ]
+    },
+    {
+      "a": 22,
+      "reply": [
+        0,
+        0,
+        24
+      ],
+      "original_reply": [
+        0,
+        0,
+        24
+      ]
+    },
+    {
+      "a": 23,
+      "reply": [
+        0,
+        0,
+        27
+      ],
+      "original_reply": [
+        0,
+        0,
+        27
+      ]
+    },
+    {
+      "a": 24,
+      "reply": [
+        0,
+        0,
+        26
+      ],
+      "original_reply": [
+        0,
+        0,
+        26
+      ]
+    },
+    {
+      "a": 25,
+      "reply": [
+        0,
+        0,
+        29
+      ],
+      "original_reply": [
+        0,
+        0,
+        29
+      ]
+    },
+    {
+      "a": 26,
+      "reply": [
+        0,
+        0,
+        28
+      ],
+      "original_reply": [
+        0,
+        0,
+        28
+      ]
+    },
+    {
+      "a": 27,
+      "reply": [
+        0,
+        0,
+        31
+      ],
+      "original_reply": [
+        0,
+        0,
+        31
+      ]
+    },
+    {
+      "a": 28,
+      "reply": [
+        0,
+        0,
+        30
+      ],
+      "original_reply": [
+        0,
+        0,
+        30
+      ]
+    },
+    {
+      "a": 29,
+      "reply": [
+        0,
+        0,
+        33
+      ],
+      "original_reply": [
+        0,
+        0,
+        33
+      ]
+    },
+    {
+      "a": 30,
+      "reply": [
+        0,
+        0,
+        32
+      ],
+      "original_reply": [
+        0,
+        0,
+        32
+      ]
+    },
+    {
+      "a": 31,
+      "reply": [
+        0,
+        0,
+        35
+      ],
+      "original_reply": [
+        0,
+        0,
+        35
+      ]
+    },
+    {
+      "a": 32,
+      "reply": [
+        0,
+        0,
+        34
+      ],
+      "original_reply": [
+        0,
+        0,
+        34
+      ]
+    },
+    {
+      "a": 33,
+      "reply": [
+        0,
+        0,
+        37
+      ],
+      "original_reply": [
+        0,
+        0,
+        37
+      ]
+    },
+    {
+      "a": 34,
+      "reply": [
+        0,
+        0,
+        36
+      ],
+      "original_reply": [
+        0,
+        0,
+        36
+      ]
+    },
+    {
+      "a": 35,
+      "reply": [
+        0,
+        0,
+        39
+      ],
+      "original_reply": [
+        0,
+        0,
+        39
+      ]
+    },
+    {
+      "a": 36,
+      "reply": [
+        0,
+        0,
+        38
+      ],
+      "original_reply": [
+        0,
+        0,
+        38
+      ]
+    },
+    {
+      "a": 37,
+      "reply": [
+        0,
+        0,
+        41
+      ],
+      "original_reply": [
+        0,
+        0,
+        41
+      ]
+    },
+    {
+      "a": 38,
+      "reply": [
+        0,
+        0,
+        40
+      ],
+      "original_reply": [
+        0,
+        0,
+        40
+      ]
+    },
+    {
+      "a": 39,
+      "reply": [
+        0,
+        0,
+        43
+      ],
+      "original_reply": [
+        0,
+        0,
+        43
+      ]
+    },
+    {
+      "a": 40,
+      "reply": [
+        0,
+        0,
+        42
+      ],
+      "original_reply": [
+        0,
+        0,
+        42
+      ]
+    },
+    {
+      "a": 41,
+      "reply": [
+        0,
+        0,
+        45
+      ],
+      "original_reply": [
+        0,
+        0,
+        45
+      ]
+    },
+    {
+      "a": 42,
+      "reply": [
+        0,
+        0,
+        44
+      ],
+      "original_reply": [
+        0,
+        0,
+        44
+      ]
+    },
+    {
+      "a": 43,
+      "reply": [
+        0,
+        0,
+        47
+      ],
+      "original_reply": [
+        0,
+        0,
+        47
+      ]
+    },
+    {
+      "a": 44,
+      "reply": [
+        0,
+        0,
+        46
+      ],
+      "original_reply": [
+        0,
+        0,
+        46
+      ]
+    },
+    {
+      "a": 45,
+      "reply": [
+        0,
+        0,
+        49
+      ],
+      "original_reply": [
+        0,
+        0,
+        49
+      ]
+    },
+    {
+      "a": 46,
+      "reply": [
+        0,
+        0,
+        48
+      ],
+      "original_reply": [
+        0,
+        0,
+        48
+      ]
+    },
+    {
+      "a": 47,
+      "reply": [
+        0,
+        0,
+        51
+      ],
+      "original_reply": [
+        0,
+        0,
+        51
+      ]
+    },
+    {
+      "a": 48,
+      "reply": [
+        0,
+        0,
+        50
+      ],
+      "original_reply": [
+        0,
+        0,
+        50
+      ]
+    },
+    {
+      "a": 49,
+      "reply": [
+        0,
+        0,
+        53
+      ],
+      "original_reply": [
+        0,
+        0,
+        53
+      ]
+    },
+    {
+      "a": 50,
+      "reply": [
+        0,
+        0,
+        52
+      ],
+      "original_reply": [
+        0,
+        0,
+        52
+      ]
+    },
+    {
+      "a": 51,
+      "reply": [
+        0,
+        0,
+        55
+      ],
+      "original_reply": [
+        0,
+        0,
+        55
+      ]
+    },
+    {
+      "a": 52,
+      "reply": [
+        0,
+        0,
+        54
+      ],
+      "original_reply": [
+        0,
+        0,
+        54
+      ]
+    },
+    {
+      "a": 53,
+      "reply": [
+        0,
+        0,
+        57
+      ],
+      "original_reply": [
+        0,
+        0,
+        57
+      ]
+    }
+  ],
+  "global_prefix": [
+    {
+      "n": 1,
+      "reply": [
+        0,
+        2,
+        0
+      ],
+      "original_reply": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "n": 2,
+      "reply": [
+        0,
+        1,
+        0
+      ],
+      "original_reply": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "n": 3,
+      "reply": [
+        1,
+        2,
+        1
+      ],
+      "original_reply": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "n": 4,
+      "reply": [
+        1,
+        0,
+        0
+      ],
+      "original_reply": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "n": 5,
+      "reply": [
+        1,
+        0,
+        3
+      ],
+      "original_reply": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "n": 6,
+      "reply": [
+        2,
+        0,
+        0
+      ],
+      "original_reply": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "n": 7,
+      "reply": [
+        1,
+        0,
+        2
+      ],
+      "original_reply": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "n": 8,
+      "reply": [
+        1,
+        0,
+        6
+      ],
+      "original_reply": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "n": 9,
+      "reply": [
+        1,
+        0,
+        5
+      ],
+      "original_reply": [
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "n": 10,
+      "reply": [
+        1,
+        0,
+        8
+      ],
+      "original_reply": [
+        0,
+        1,
+        8
+      ]
+    },
+    {
+      "n": 11,
+      "reply": [
+        1,
+        0,
+        7
+      ],
+      "original_reply": [
+        0,
+        1,
+        7
+      ]
+    },
+    {
+      "n": 12,
+      "reply": [
+        1,
+        0,
+        10
+      ],
+      "original_reply": [
+        0,
+        1,
+        10
+      ]
+    },
+    {
+      "n": 13,
+      "reply": [
+        1,
+        0,
+        9
+      ],
+      "original_reply": [
+        0,
+        1,
+        9
+      ]
+    },
+    {
+      "n": 14,
+      "reply": [
+        1,
+        0,
+        12
+      ],
+      "original_reply": [
+        0,
+        1,
+        12
+      ]
+    },
+    {
+      "n": 15,
+      "reply": [
+        1,
+        0,
+        11
+      ],
+      "original_reply": [
+        0,
+        1,
+        11
+      ]
+    },
+    {
+      "n": 16,
+      "reply": [
+        1,
+        0,
+        14
+      ],
+      "original_reply": [
+        0,
+        1,
+        14
+      ]
+    },
+    {
+      "n": 17,
+      "reply": [
+        1,
+        0,
+        13
+      ],
+      "original_reply": [
+        0,
+        1,
+        13
+      ]
+    },
+    {
+      "n": 18,
+      "reply": [
+        1,
+        0,
+        16
+      ],
+      "original_reply": [
+        0,
+        1,
+        16
+      ]
+    },
+    {
+      "n": 19,
+      "reply": [
+        1,
+        0,
+        15
+      ],
+      "original_reply": [
+        0,
+        1,
+        15
+      ]
+    },
+    {
+      "n": 20,
+      "reply": [
+        1,
+        0,
+        18
+      ],
+      "original_reply": [
+        0,
+        1,
+        18
+      ]
+    },
+    {
+      "n": 21,
+      "reply": [
+        1,
+        0,
+        17
+      ],
+      "original_reply": [
+        0,
+        1,
+        17
+      ]
+    },
+    {
+      "n": 22,
+      "reply": [
+        1,
+        0,
+        20
+      ],
+      "original_reply": [
+        0,
+        1,
+        20
+      ]
+    },
+    {
+      "n": 23,
+      "reply": [
+        1,
+        0,
+        19
+      ],
+      "original_reply": [
+        0,
+        1,
+        19
+      ]
+    },
+    {
+      "n": 24,
+      "reply": [
+        1,
+        0,
+        22
+      ],
+      "original_reply": [
+        0,
+        1,
+        22
+      ]
+    },
+    {
+      "n": 25,
+      "reply": [
+        1,
+        0,
+        21
+      ],
+      "original_reply": [
+        0,
+        1,
+        21
+      ]
+    },
+    {
+      "n": 26,
+      "reply": [
+        1,
+        0,
+        24
+      ],
+      "original_reply": [
+        0,
+        1,
+        24
+      ]
+    },
+    {
+      "n": 27,
+      "reply": [
+        1,
+        0,
+        23
+      ],
+      "original_reply": [
+        0,
+        1,
+        23
+      ]
+    },
+    {
+      "n": 28,
+      "reply": [
+        1,
+        0,
+        26
+      ],
+      "original_reply": [
+        0,
+        1,
+        26
+      ]
+    },
+    {
+      "n": 29,
+      "reply": [
+        1,
+        0,
+        25
+      ],
+      "original_reply": [
+        0,
+        1,
+        25
+      ]
+    },
+    {
+      "n": 30,
+      "reply": [
+        1,
+        0,
+        28
+      ],
+      "original_reply": [
+        0,
+        1,
+        28
+      ]
+    },
+    {
+      "n": 31,
+      "reply": [
+        1,
+        0,
+        27
+      ],
+      "original_reply": [
+        0,
+        1,
+        27
+      ]
+    },
+    {
+      "n": 32,
+      "reply": [
+        1,
+        0,
+        30
+      ],
+      "original_reply": [
+        0,
+        1,
+        30
+      ]
+    },
+    {
+      "n": 33,
+      "reply": [
+        1,
+        0,
+        29
+      ],
+      "original_reply": [
+        0,
+        1,
+        29
+      ]
+    },
+    {
+      "n": 34,
+      "reply": [
+        1,
+        0,
+        32
+      ],
+      "original_reply": [
+        0,
+        1,
+        32
+      ]
+    },
+    {
+      "n": 35,
+      "reply": [
+        1,
+        0,
+        31
+      ],
+      "original_reply": [
+        0,
+        1,
+        31
+      ]
+    },
+    {
+      "n": 36,
+      "reply": [
+        1,
+        0,
+        34
+      ],
+      "original_reply": [
+        0,
+        1,
+        34
+      ]
+    },
+    {
+      "n": 37,
+      "reply": [
+        1,
+        0,
+        33
+      ],
+      "original_reply": [
+        0,
+        1,
+        33
+      ]
+    },
+    {
+      "n": 38,
+      "reply": [
+        1,
+        0,
+        36
+      ],
+      "original_reply": [
+        0,
+        1,
+        36
+      ]
+    },
+    {
+      "n": 39,
+      "reply": [
+        1,
+        0,
+        35
+      ],
+      "original_reply": [
+        0,
+        1,
+        35
+      ]
+    },
+    {
+      "n": 40,
+      "reply": [
+        1,
+        0,
+        38
+      ],
+      "original_reply": [
+        0,
+        1,
+        38
+      ]
+    },
+    {
+      "n": 41,
+      "reply": [
+        1,
+        0,
+        37
+      ],
+      "original_reply": [
+        0,
+        1,
+        37
+      ]
+    },
+    {
+      "n": 42,
+      "reply": [
+        1,
+        0,
+        40
+      ],
+      "original_reply": [
+        0,
+        1,
+        40
+      ]
+    },
+    {
+      "n": 43,
+      "reply": [
+        1,
+        0,
+        39
+      ],
+      "original_reply": [
+        0,
+        1,
+        39
+      ]
+    },
+    {
+      "n": 44,
+      "reply": [
+        1,
+        0,
+        42
+      ],
+      "original_reply": [
+        0,
+        1,
+        42
+      ]
+    },
+    {
+      "n": 45,
+      "reply": [
+        1,
+        0,
+        41
+      ],
+      "original_reply": [
+        0,
+        1,
+        41
+      ]
+    },
+    {
+      "n": 46,
+      "reply": [
+        1,
+        0,
+        44
+      ],
+      "original_reply": [
+        0,
+        1,
+        44
+      ]
+    },
+    {
+      "n": 47,
+      "reply": [
+        1,
+        0,
+        43
+      ],
+      "original_reply": [
+        0,
+        1,
+        43
+      ]
+    },
+    {
+      "n": 48,
+      "reply": [
+        1,
+        0,
+        46
+      ],
+      "original_reply": [
+        0,
+        1,
+        46
+      ]
+    },
+    {
+      "n": 49,
+      "reply": [
+        1,
+        0,
+        45
+      ],
+      "original_reply": [
+        0,
+        1,
+        45
+      ]
+    },
+    {
+      "n": 50,
+      "reply": [
+        1,
+        0,
+        48
+      ],
+      "original_reply": [
+        0,
+        1,
+        48
+      ]
+    },
+    {
+      "n": 51,
+      "reply": [
+        1,
+        0,
+        47
+      ],
+      "original_reply": [
+        0,
+        1,
+        47
+      ]
+    },
+    {
+      "n": 52,
+      "reply": [
+        1,
+        0,
+        50
+      ],
+      "original_reply": [
+        0,
+        1,
+        50
+      ]
+    },
+    {
+      "n": 53,
+      "reply": [
+        1,
+        0,
+        49
+      ],
+      "original_reply": [
+        0,
+        1,
+        49
+      ]
+    },
+    {
+      "n": 54,
+      "reply": [
+        1,
+        0,
+        52
+      ],
+      "original_reply": [
+        0,
+        1,
+        52
+      ]
+    },
+    {
+      "n": 55,
+      "reply": [
+        1,
+        0,
+        51
+      ],
+      "original_reply": [
+        0,
+        1,
+        51
+      ]
+    },
+    {
+      "n": 56,
+      "reply": [
+        1,
+        0,
+        54
+      ],
+      "original_reply": [
+        0,
+        1,
+        54
+      ]
+    },
+    {
+      "n": 57,
+      "reply": [
+        1,
+        0,
+        53
+      ],
+      "original_reply": [
+        0,
+        1,
+        53
+      ]
+    }
+  ],
+  "neighbor_tail": {
+    "a_min": 54,
+    "period": 4,
+    "offsets": [
+      2,
+      4,
+      2,
+      4
+    ],
+    "reply": "(0,0,a+offsets[a%period])"
+  },
+  "global_tail": {
+    "n_min": 58,
+    "period": 4,
+    "inverse_offsets": [
+      2,
+      4,
+      2,
+      4
+    ],
+    "reply": "(1,0,n-inverse_offsets[n%period])"
+  },
+  "compact_strategy": {
+    "period": 2,
+    "offsets": [
+      2,
+      4
+    ],
+    "neighbor_from": 4,
+    "global_from": 8,
+    "neighbor_low": [
+      {
+        "a": 0,
+        "reply": [
+          0,
+          0,
+          4
+        ],
+        "original_reply": [
+          0,
+          0,
+          4
+        ]
+      },
+      {
+        "a": 1,
+        "reply": [
+          0,
+          0,
+          2
+        ],
+        "original_reply": [
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "a": 2,
+        "reply": [
+          0,
+          0,
+          7
+        ],
+        "original_reply": [
+          0,
+          0,
+          7
+        ]
+      },
+      {
+        "a": 3,
+        "reply": [
+          0,
+          0,
+          5
+        ],
+        "original_reply": [
+          0,
+          0,
+          5
+        ]
+      }
+    ],
+    "global_low": [
+      {
+        "n": 1,
+        "reply": [
+          0,
+          2,
+          0
+        ],
+        "original_reply": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "n": 2,
+        "reply": [
+          0,
+          1,
+          0
+        ],
+        "original_reply": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "n": 3,
+        "reply": [
+          1,
+          2,
+          1
+        ],
+        "original_reply": [
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "n": 4,
+        "reply": [
+          1,
+          0,
+          0
+        ],
+        "original_reply": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "n": 5,
+        "reply": [
+          1,
+          0,
+          3
+        ],
+        "original_reply": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "n": 6,
+        "reply": [
+          2,
+          0,
+          0
+        ],
+        "original_reply": [
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "n": 7,
+        "reply": [
+          1,
+          0,
+          2
+        ],
+        "original_reply": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "global_heights_without_any_neighbor_P_reply": [
+      1,
+      3
+    ],
+    "verification": "finite stored prefix plus the proved period4 tail, not a guessed period"
+  },
+  "all_PN_states": 40,
+  "P_states": 5,
+  "all_side_geometry_equalities": 180,
+  "finite_height_cache_states": 1107,
+  "all_local_checks_passed": true,
+  "independent_review_status": "pending",
+  "new_height_rows_constructed": 0
+}

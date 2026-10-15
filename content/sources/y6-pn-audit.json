@@ -1,0 +1,162 @@
+{
+  "all_checks_passed": true,
+  "source_sha256": "6e8f35e1a02b31f8a80f11c87a45473bba7869322bb07022164bd5c1b872cfdb",
+  "finite_states": 892,
+  "P_states": 109,
+  "proof_edges": 2297,
+  "root_points": 30,
+  "root_safe_children": 29,
+  "Y6_PN": "N",
+  "Y6_winning_mouth": [
+    0,
+    0,
+    5
+  ],
+  "D6_common_positive_ordinal_P_height": 5,
+  "Y7_all_ground_successors_N": true,
+  "Y7_ground_cases": [
+    {
+      "Y7_first_mouth": [
+        0,
+        1,
+        0
+      ],
+      "post_mouth_PN": "N",
+      "winning_reply": [
+        2,
+        0,
+        0
+      ],
+      "P_boxes": [
+        [
+          2,
+          1,
+          "omega"
+        ]
+      ]
+    },
+    {
+      "Y7_first_mouth": [
+        0,
+        2,
+        0
+      ],
+      "post_mouth_PN": "N",
+      "winning_reply": [
+        1,
+        0,
+        0
+      ],
+      "P_boxes": [
+        [
+          1,
+          2,
+          "omega"
+        ]
+      ]
+    },
+    {
+      "Y7_first_mouth": [
+        1,
+        0,
+        0
+      ],
+      "post_mouth_PN": "N",
+      "winning_reply": [
+        0,
+        2,
+        0
+      ],
+      "P_boxes": [
+        [
+          1,
+          2,
+          "omega"
+        ]
+      ]
+    },
+    {
+      "Y7_first_mouth": [
+        1,
+        1,
+        0
+      ],
+      "post_mouth_PN": "N",
+      "winning_reply": [
+        0,
+        0,
+        1
+      ],
+      "P_boxes": [
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "Y7_first_mouth": [
+        2,
+        0,
+        0
+      ],
+      "post_mouth_PN": "N",
+      "winning_reply": [
+        0,
+        0,
+        1
+      ],
+      "P_boxes": [
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "Y7_first_mouth": [
+        2,
+        1,
+        0
+      ],
+      "post_mouth_PN": "N",
+      "winning_reply": [
+        0,
+        0,
+        5
+      ],
+      "P_boxes": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          2,
+          5
+        ],
+        [
+          3,
+          1,
+          5
+        ]
+      ]
+    }
+  ],
+  "Y7": "unresolved",
+  "J": "unresolved",
+  "W_main": "unresolved"
+}

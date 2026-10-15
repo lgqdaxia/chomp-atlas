@@ -1,0 +1,311 @@
+{
+  "verified": true,
+  "source": "research_lines/omega3/working/j_focus29/y8_finite/finite_Y8_sections_certificate.json",
+  "source_sha256": "cd267ca97bd0cb4c0566d049cd68da2758e560903392fe6e14fdb56121ab06f7",
+  "method": "independent original-coordinate point sets; no constructor imports",
+  "counts": {
+    "states": 6338,
+    "P_states": 805,
+    "N_states": 5533,
+    "complete_P_safe_edges": 14751,
+    "N_to_P_witness_edges": 5533
+  },
+  "total_proof_edges": 20284,
+  "all_nodes_downclosed_contain_poison_and_are_distinct_root_subsets": true,
+  "P_all_safe_mouths_and_N_actual_P_witnesses_verified": true,
+  "every_proof_edge_exact_and_strictly_descending": true,
+  "final_root_reachable_nodes": 6338,
+  "final_root_safe_mouths": 39,
+  "final_root_points": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      3
+    ],
+    [
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      3
+    ],
+    [
+      1,
+      0,
+      4
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      3
+    ],
+    [
+      1,
+      1,
+      4
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      4
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      0,
+      3
+    ],
+    [
+      2,
+      0,
+      4
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      1,
+      3
+    ],
+    [
+      2,
+      1,
+      4
+    ]
+  ],
+  "roots": [
+    {
+      "height": 1,
+      "id": 104,
+      "points": 8,
+      "P": false
+    },
+    {
+      "height": 2,
+      "id": 1487,
+      "points": 16,
+      "P": false
+    },
+    {
+      "height": 3,
+      "id": 4787,
+      "points": 24,
+      "P": false
+    },
+    {
+      "height": 4,
+      "id": 6199,
+      "points": 32,
+      "P": false
+    },
+    {
+      "height": 5,
+      "id": 6337,
+      "points": 40,
+      "P": true
+    }
+  ],
+  "symbolic_omega_interfaces": {
+    "omega_encoding": null,
+    "J_height": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "first_mouth": [
+      2,
+      2,
+      0
+    ],
+    "Y8_height": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0
+    ],
+    "surviving_omega_columns": 8,
+    "finite_points_outside_omega_columns": 0,
+    "reply_mouth": [
+      0,
+      0,
+      5
+    ],
+    "finite_reply_height": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      0
+    ],
+    "finite_reply_root_id": 6337
+  },
+  "all_positive_ordinal_height_classification": {
+    "family": "D8 times alpha, alpha>0",
+    "P_iff_alpha_equals": 5,
+    "alpha_less_than_5": "four actual N global children of the P root",
+    "alpha_greater_than_5": "every such ordinal admits globalz5 to the same 40-point P root"
+  },
+  "Y8_PN": "N",
+  "chi_22_0": 5,
+  "mother_J_PN": "not determined by this audit"
+}

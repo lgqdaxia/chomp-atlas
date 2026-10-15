@@ -1,0 +1,3089 @@
+{
+  "meta": {
+    "title": "Chomp Atlas · 无限棋盘研究图谱",
+    "snapshotDate": "2026-10-15",
+    "mainRound": 38,
+    "c11Round": 69,
+    "description": "从完整W的真实安全咬法出发，分开展示棋形走法、PN结论和证明依赖。主线采用正式第38轮，C₁₁采用第69轮已审停止快照；不含round039或实时后台。P为轮到走者必败，N为轮到走者有获胜策略，U为尚未判定。"
+  },
+  "positions": [
+    {
+      "id": "W",
+      "name": "W",
+      "subtitle": "完整三维无限棋盘",
+      "aliases": [],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "W = ℕ³ = ω × ω × ω；逐坐标偏序，原点为毒块。",
+      "boxes": [
+        [
+          null,
+          null,
+          null
+        ]
+      ],
+      "cuts": [],
+      "summary": "主问题仍未判定。需要一个实际P后继证明N，或对所有安全首口证明后继N。",
+      "scope": "所有非零自然三元组是安全首口；坐标置换可归并为0≤a≤b≤c。",
+      "gap": "已知局部模块并未穷尽根的全部参数族。",
+      "conjecture": null,
+      "proofs": [
+        "root-cuts",
+        "mainline"
+      ],
+      "coverage": [
+        {
+          "label": "一格轴口及置换",
+          "domain": "(1,0,0)的三个坐标置换",
+          "outcome": "N",
+          "target": "Plane",
+          "proof": "root-cuts",
+          "note": "后继为二维整平面，可一口到P的L。"
+        },
+        {
+          "label": "两格轴口及置换",
+          "domain": "(2,0,0)的三个坐标置换",
+          "outcome": "N",
+          "target": "Slab2",
+          "proof": "root-cuts",
+          "note": "后继可一口到两相邻ω柱P。"
+        },
+        {
+          "label": "双一口及置换",
+          "domain": "(0,1,1)的三个坐标置换",
+          "outcome": "N",
+          "target": "F011",
+          "proof": "root-cuts",
+          "note": ""
+        },
+        {
+          "label": "中心首口",
+          "domain": "(1,1,1)",
+          "outcome": "U",
+          "target": "T",
+          "proof": "root-cuts",
+          "note": ""
+        },
+        {
+          "label": "三层轴口及置换",
+          "domain": "(3,0,0)及其坐标置换",
+          "outcome": "U",
+          "target": "A3",
+          "proof": "mainline",
+          "note": ""
+        },
+        {
+          "label": "其余首口",
+          "domain": "除上列外的全部非零自然三元组",
+          "outcome": "U",
+          "target": null,
+          "proof": "root-cuts",
+          "note": "未知区不是已证分类。"
+        }
+      ],
+      "bounds": [],
+      "depth": 0
+    },
+    {
+      "id": "Plane",
+      "name": "二维整平面",
+      "subtitle": "根的(1,0,0)后继",
+      "aliases": [
+        "F(1,0,0)"
+      ],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "[1,ω,ω]",
+      "boxes": [
+        [
+          1,
+          null,
+          null
+        ]
+      ],
+      "cuts": [],
+      "summary": "实际口(0,1,1)到P的两正交轴L。",
+      "scope": "本图坐标为x=0平面；其他朝向用坐标置换。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "root-cuts",
+        "basic-p"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 1
+    },
+    {
+      "id": "Slab2",
+      "name": "两层板",
+      "subtitle": "根的(2,0,0)后继",
+      "aliases": [
+        "F(2,0,0)"
+      ],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "[2,ω,ω]",
+      "boxes": [
+        [
+          2,
+          null,
+          null
+        ]
+      ],
+      "cuts": [],
+      "summary": "实际口(0,1,0)到P的两相邻ω柱。",
+      "scope": "此N判定覆盖全部坐标置换。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "root-cuts",
+        "basic-p"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 1
+    },
+    {
+      "id": "F011",
+      "name": "F(0,1,1)",
+      "subtitle": "两个坐标平面之并",
+      "aliases": [],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "[ω,1,ω] ∪ [ω,ω,1]",
+      "boxes": [
+        [
+          null,
+          1,
+          null
+        ],
+        [
+          null,
+          null,
+          1
+        ]
+      ],
+      "cuts": [],
+      "summary": "实际口(1,0,0)到P的L。",
+      "scope": "仅本具体首口及坐标置换，不等于三个平面T。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "root-cuts",
+        "basic-p"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 1
+    },
+    {
+      "id": "L",
+      "name": "L∞",
+      "subtitle": "两条正交完整ω轴",
+      "aliases": [],
+      "outcome": "P",
+      "domain": "N3",
+      "definition": "[1,1,ω] ∪ [1,ω,1]",
+      "boxes": [
+        [
+          1,
+          1,
+          null
+        ],
+        [
+          1,
+          null,
+          1
+        ]
+      ],
+      "cuts": [],
+      "summary": "两条轴尾互相镜像，给全部安全口的完整策略。",
+      "scope": "两轴只共毒块；不能将相交的多个平面看成独立游戏。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "basic-p"
+      ],
+      "coverage": [
+        {
+          "label": "任一轴安全口",
+          "domain": "在两轴之一选择距离n≥1的点",
+          "outcome": "N",
+          "target": null,
+          "proof": "basic-p",
+          "note": "在另一轴回复同一距离n，随后有限等臂镜像。"
+        }
+      ],
+      "bounds": [],
+      "depth": 2
+    },
+    {
+      "id": "TwoOmega",
+      "name": "2 × ω",
+      "subtitle": "两相邻完整ω柱",
+      "aliases": [
+        "两相邻ω塔"
+      ],
+      "outcome": "P",
+      "domain": "N3",
+      "definition": "[2,1,ω]",
+      "boxes": [
+        [
+          2,
+          1,
+          null
+        ]
+      ],
+      "cuts": [],
+      "summary": "原点柱与相邻柱的偏一回复策略给P。",
+      "scope": "这是相邻柱；不同于L的两正交轴。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "basic-p",
+        "two-tower"
+      ],
+      "coverage": [
+        {
+          "label": "global口",
+          "domain": "(0,0,n)，n≥1",
+          "outcome": "N",
+          "target": null,
+          "proof": "basic-p",
+          "note": ""
+        },
+        {
+          "label": "相邻柱口",
+          "domain": "(1,0,a)，a≥0",
+          "outcome": "N",
+          "target": null,
+          "proof": "basic-p",
+          "note": ""
+        }
+      ],
+      "bounds": [],
+      "depth": 2
+    },
+    {
+      "id": "T",
+      "name": "T",
+      "subtitle": "三个坐标平面的并",
+      "aliases": [],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "T = W ∖ ↑(1,1,1) = {min(x,y,z)=0}。",
+      "boxes": [
+        [
+          1,
+          null,
+          null
+        ],
+        [
+          null,
+          1,
+          null
+        ],
+        [
+          null,
+          null,
+          1
+        ]
+      ],
+      "cuts": [],
+      "summary": "(1,1,1)是否是W获胜首步，准确取决于T是否为P。",
+      "scope": "全部口在坐标置换下分为轴口(a,0,0)与面内口(0,a,b)。",
+      "gap": "轴向与平面内全部参数的后继尚未分类。",
+      "conjecture": null,
+      "proofs": [
+        "root-cuts",
+        "mainline"
+      ],
+      "coverage": [
+        {
+          "label": "全部轴向口",
+          "domain": "(a,0,0)，a≥1，及置换",
+          "outcome": "U",
+          "target": null,
+          "proof": "root-cuts",
+          "note": "a=1已N；a=3进入本图A₃ᵀ。"
+        },
+        {
+          "label": "全部平面内口",
+          "domain": "(0,a,b)，1≤a≤b，及置换",
+          "outcome": "U",
+          "target": null,
+          "proof": "root-cuts",
+          "note": "a=b=1已N；不能从有限清单推全族。"
+        }
+      ],
+      "bounds": [],
+      "depth": 1
+    },
+    {
+      "id": "A3",
+      "name": "A₃ · 三层板",
+      "subtitle": "完整W的轴向截面",
+      "aliases": [
+        "slab A3",
+        "3×ω×ω"
+      ],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "A₃(slab) = W ∖ ↑(3,0,0) = [3,ω,ω]。",
+      "boxes": [
+        [
+          3,
+          null,
+          null
+        ]
+      ],
+      "cuts": [],
+      "summary": "在(0,3,0)准确到九柱J。",
+      "scope": "本节点专指完整W的一口三层板。旧笔记也把T的轴截叫A₃，本站另记为A₃ᵀ。",
+      "gap": "J及三层板自身仍未判定。",
+      "conjecture": null,
+      "proofs": [
+        "mainline",
+        "j-scope"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 1
+    },
+    {
+      "id": "A3T",
+      "name": "A₃ᵀ",
+      "subtitle": "三平面T的轴截",
+      "aliases": [
+        "旧起点笔记的A3",
+        "T轴向A3"
+      ],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "A₃ᵀ = T ∖ ↑(3,0,0)。",
+      "boxes": [
+        [
+          1,
+          null,
+          null
+        ],
+        [
+          3,
+          1,
+          null
+        ],
+        [
+          3,
+          null,
+          1
+        ]
+      ],
+      "cuts": [],
+      "summary": "在(0,1,2)到Q(1,2,3)。",
+      "scope": "保留x=0完整平面和两条厚度3的无限条；不等于[3,ω,ω]。为避免旧文献内部同名混淆而加上标T。",
+      "gap": "Q123=N也只排一个首口；当前两者均未知。",
+      "conjecture": null,
+      "proofs": [
+        "mainline"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 2
+    },
+    {
+      "id": "Q123",
+      "name": "Q(1,2,3)",
+      "subtitle": "平面条带与三重L形",
+      "aliases": [
+        "Q123"
+      ],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "Q(1,2,3) = [3,1,ω] ∪ [3,ω,1] ∪ [1,ω,2]。",
+      "boxes": [
+        [
+          3,
+          1,
+          null
+        ],
+        [
+          3,
+          null,
+          1
+        ],
+        [
+          1,
+          null,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "在(0,2,1)到U₃，在(1,1,0)到Y₁；它们各自的N结论不能反推Q。",
+      "scope": "Q的角条仍包含(0,2,1)，故Q在(1,2,0)后的棋形不是C₁₂。",
+      "gap": "唯一扩展高度h(1,2)及整体PN仍未知。",
+      "conjecture": null,
+      "proofs": [
+        "mainline"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 3
+    },
+    {
+      "id": "U3",
+      "name": "U₃",
+      "subtitle": "三柱、三枝与角块",
+      "aliases": [],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "U₃ = [3,1,ω] ∪ [3,ω,1] ∪ [1,2,2]。",
+      "boxes": [
+        [
+          3,
+          1,
+          null
+        ],
+        [
+          3,
+          null,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "真实口(1,1,0)到C₁₁；若C₁₁=P便立即判U₃=N。",
+      "scope": "该结论是带前提的逻辑接口，当前不把C₁₁工作猜想当事实。",
+      "gap": "C₁₁/C₁₂及其它安全口未形成完整母形判定。",
+      "conjecture": null,
+      "proofs": [
+        "mainline",
+        "c11-consequences",
+        "c12-scope"
+      ],
+      "coverage": [
+        {
+          "label": "第二枝短截",
+          "domain": "(1,1,0)",
+          "outcome": "U",
+          "target": "C11",
+          "proof": "mainline",
+          "note": ""
+        },
+        {
+          "label": "第二枝长度2",
+          "domain": "(1,2,0)",
+          "outcome": "U",
+          "target": "C12",
+          "proof": "mainline",
+          "note": ""
+        }
+      ],
+      "bounds": [],
+      "depth": 4
+    },
+    {
+      "id": "C11",
+      "name": "C₁₁ = Vω",
+      "subtitle": "三根z柱、y轴与角块",
+      "aliases": [
+        "Vω",
+        "C1,1"
+      ],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "C₁₁ = [3,1,ω] ∪ [1,ω,1] ∪ [1,2,2]。",
+      "boxes": [
+        [
+          3,
+          1,
+          null
+        ],
+        [
+          1,
+          null,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "主PN仍未知；已审V₁…V₄₉全N，唯一P总y高度50≤j≤ω。",
+      "scope": "快照采用C₁₁第69轮已审状态；不是实时后台。全部非y口无条件N已证。",
+      "gap": "仍须捕获所有有限高度的完整c/β来源，或找到有限Vⱼ=P。",
+      "conjecture": "工作猜想：C₁₁=P，即j=ω；未证。",
+      "proofs": [
+        "c11-snapshot",
+        "c11-nony",
+        "c11-consequences"
+      ],
+      "coverage": [
+        {
+          "label": "global y",
+          "domain": "(0,n,0)，1≤n≤49",
+          "outcome": "N",
+          "target": null,
+          "proof": "c11-snapshot",
+          "note": "沿用已审停止快照，本版未镜像全部49份原始证明闭包。"
+        },
+        {
+          "label": "global y 50",
+          "domain": "(0,50,0)",
+          "outcome": "U",
+          "target": "V50",
+          "proof": "c11-snapshot",
+          "note": ""
+        },
+        {
+          "label": "其余global y",
+          "domain": "(0,n,0)，n≥50",
+          "outcome": "U",
+          "target": null,
+          "proof": "c11-snapshot",
+          "note": ""
+        },
+        {
+          "label": "全部非y口",
+          "domain": "global z、中柱、第三柱与角块d",
+          "outcome": "N",
+          "target": null,
+          "proof": "c11-nony",
+          "note": "有逐类全参数的实际P回复，与β是否有限无关。"
+        }
+      ],
+      "bounds": [
+        "50 ≤ j ≤ ω",
+        "V₁,…,V₄₉均N；V₅₀未知"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "C12",
+      "name": "C₁₂",
+      "subtitle": "C₁₁再加两个侧枝点",
+      "aliases": [
+        "C1,2"
+      ],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "C₁₂ = [3,1,ω] ∪ [1,ω,1] ∪ [3,2,1] ∪ [1,2,2]。",
+      "boxes": [
+        [
+          3,
+          1,
+          null
+        ],
+        [
+          1,
+          null,
+          1
+        ],
+        [
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "(1,1,0)到C₁₁；若C₁₁=P则C₁₂=N。",
+      "scope": "只有在C₁₁=N条件下，才有其唯一y高度κ₂≤ω。",
+      "gap": "剩余g→C₁₁与高global y候选尚未决定。",
+      "conjecture": null,
+      "proofs": [
+        "c12-scope",
+        "c11-consequences"
+      ],
+      "coverage": [
+        {
+          "label": "g口",
+          "domain": "(1,1,0)",
+          "outcome": "U",
+          "target": "C11",
+          "proof": "c12-scope",
+          "note": ""
+        },
+        {
+          "label": "其余非y口",
+          "domain": "global z、第二/第三柱、h与d",
+          "outcome": "N",
+          "target": null,
+          "proof": "c12-scope",
+          "note": ""
+        },
+        {
+          "label": "global y低边界",
+          "domain": "y=1,…,5",
+          "outcome": "N",
+          "target": null,
+          "proof": "c12-scope",
+          "note": "y5已由后续J₅=N加强；κ₂≥6。"
+        },
+        {
+          "label": "global y高参数",
+          "domain": "y≥6",
+          "outcome": "U",
+          "target": null,
+          "proof": "c12-scope",
+          "note": ""
+        }
+      ],
+      "bounds": [
+        "κ₂ ≥ 6",
+        "κ₂ ≤ ω仅在C₁₁=N时成立",
+        "κ₂ ≠ j"
+      ],
+      "depth": 5
+    },
+    {
+      "id": "J",
+      "name": "J",
+      "subtitle": "3 × 3足迹上的九根ω柱",
+      "aliases": [
+        "3×3×ω"
+      ],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "J = [3,3,ω]。",
+      "boxes": [
+        [
+          3,
+          3,
+          null
+        ]
+      ],
+      "cuts": [],
+      "summary": "地面口(1,2,0)到Y₇，(2,2,0)到已证N的Y₈。",
+      "scope": "Y₈=N仅排除相应首口；J的中央与外侧全部参数未覆盖。",
+      "gap": "至少三柱的中央剩余口族超出固定两ω柱工具的直接范围。",
+      "conjecture": null,
+      "proofs": [
+        "j-scope",
+        "y8",
+        "y6"
+      ],
+      "coverage": [
+        {
+          "label": "角地面口",
+          "domain": "(2,2,0)",
+          "outcome": "N",
+          "target": "Y8",
+          "proof": "y8",
+          "note": ""
+        },
+        {
+          "label": "次角地面口",
+          "domain": "(1,2,0)及xy交换",
+          "outcome": "U",
+          "target": "Y7",
+          "proof": "j-scope",
+          "note": ""
+        },
+        {
+          "label": "其余参数族",
+          "domain": "其余合法横向足迹与自然高度",
+          "outcome": "U",
+          "target": null,
+          "proof": "j-scope",
+          "note": "不能把有限已排清单称作全族闭合。"
+        }
+      ],
+      "bounds": [],
+      "depth": 2
+    },
+    {
+      "id": "Y6",
+      "name": "Y₆",
+      "subtitle": "三角足迹的六根ω柱",
+      "aliases": [],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "[3,1,ω] ∪ [2,2,ω] ∪ [1,3,ω]",
+      "boxes": [
+        [
+          3,
+          1,
+          null
+        ],
+        [
+          2,
+          2,
+          null
+        ],
+        [
+          1,
+          3,
+          null
+        ]
+      ],
+      "cuts": [],
+      "summary": "global口(0,0,5)到30点P。",
+      "scope": "纯六柱共同高度α恰在5为P；加第七列帽不能直接套用。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "y6"
+      ],
+      "coverage": [],
+      "bounds": [
+        "唯一正共同P高度为5"
+      ],
+      "depth": 4
+    },
+    {
+      "id": "Y7",
+      "name": "Y₇",
+      "subtitle": "七根完整ω柱",
+      "aliases": [],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "Y₇ = [3,2,ω] ∪ [1,3,ω]。",
+      "boxes": [
+        [
+          3,
+          2,
+          null
+        ],
+        [
+          1,
+          3,
+          null
+        ]
+      ],
+      "cuts": [],
+      "summary": "全部六个安全地面口后继N，纯共同P高度ξ>18；整体PN仍未知。",
+      "scope": "主线正式发布快照止于第38轮；不采用未发布round039。",
+      "gap": "尚缺增长侧部的逐列P匹配存在性、ξ≤ω上界或另一全口策略。",
+      "conjecture": null,
+      "proofs": [
+        "y7-scope",
+        "y6",
+        "matching"
+      ],
+      "coverage": [
+        {
+          "label": "全部六个地面口",
+          "domain": "(i,j,0)，(i,j)∈D₇∖{0}",
+          "outcome": "N",
+          "target": null,
+          "proof": "y6",
+          "note": ""
+        },
+        {
+          "label": "global低高度",
+          "domain": "(0,0,h)，1≤h≤18",
+          "outcome": "N",
+          "target": null,
+          "proof": "y7-scope",
+          "note": ""
+        },
+        {
+          "label": "global其余高度",
+          "domain": "(0,0,h)，h≥19",
+          "outcome": "U",
+          "target": null,
+          "proof": "y7-scope",
+          "note": ""
+        },
+        {
+          "label": "正高度口1",
+          "domain": "(0,2,1)",
+          "outcome": "N",
+          "target": "T1",
+          "proof": "w12",
+          "note": ""
+        },
+        {
+          "label": "正高度口2",
+          "domain": "(0,2,2)",
+          "outcome": "U",
+          "target": "T2",
+          "proof": "y7-scope",
+          "note": ""
+        },
+        {
+          "label": "正高度口5",
+          "domain": "(0,2,5)",
+          "outcome": "N",
+          "target": "T5",
+          "proof": "w53",
+          "note": ""
+        },
+        {
+          "label": "其余正高度口",
+          "domain": "其它(i,j,n)，n≥1",
+          "outcome": "U",
+          "target": null,
+          "proof": "y7-scope",
+          "note": "已有24个指定N后继；不是全部参数覆盖。"
+        }
+      ],
+      "bounds": [
+        "ξ > 18",
+        "24个指定正高度首口后继已N",
+        "Y₇=P 当且仅当 ξ=ω"
+      ],
+      "depth": 3
+    },
+    {
+      "id": "Y8",
+      "name": "Y₈",
+      "subtitle": "八根完整ω柱",
+      "aliases": [],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "[3,2,ω] ∪ [2,3,ω]",
+      "boxes": [
+        [
+          3,
+          2,
+          null
+        ],
+        [
+          2,
+          3,
+          null
+        ]
+      ],
+      "cuts": [],
+      "summary": "global口(0,0,5)到40点P。",
+      "scope": "纯八柱D₈×α恰在α=5为P；n>0第九列帽未被这一结论覆盖。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "y8"
+      ],
+      "coverage": [],
+      "bounds": [
+        "唯一正共同P高度为5"
+      ],
+      "depth": 3
+    },
+    {
+      "id": "Gamma3",
+      "name": "Γ₃",
+      "subtitle": "两z无限柱、短第三柱与双y柱",
+      "aliases": [
+        "Gamma3"
+      ],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "[2,1,ω] ∪ [3,1,3] ∪ [1,ω,2]",
+      "boxes": [
+        [
+          2,
+          1,
+          null
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          1,
+          null,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "确切获胜首口(0,0,13)到无限P根Z₃(13)。",
+      "scope": "本稿给一个获胜口，不宣称所有方向唯一；不判C₁₁或W。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "gamma3"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 5
+    },
+    {
+      "id": "Y1",
+      "name": "Y₁",
+      "subtitle": "三z无限柱与双y柱",
+      "aliases": [],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "[3,1,ω] ∪ [1,ω,2]",
+      "boxes": [
+        [
+          3,
+          1,
+          null
+        ],
+        [
+          1,
+          null,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "确切获胜首口(0,0,15)到无限P根R₁₅。",
+      "scope": "全部global z截面仅高度15为P；不宣称所有方向唯一胜口。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "y1"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 4
+    },
+    {
+      "id": "W12",
+      "name": "W(1,2)",
+      "subtitle": "局部交叉族 · 两根ω柱",
+      "aliases": [
+        "W12"
+      ],
+      "outcome": "P",
+      "domain": "N3",
+      "definition": "[2,1,ω] ∪ [2,3,2] ∪ [3,1,1]",
+      "boxes": [
+        [
+          2,
+          1,
+          null
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ],
+      "cuts": [],
+      "summary": "完整P策略；k=2整条参数线仅n=1为P。",
+      "scope": "局部两ω柱交叉族W(n,k)，不是完整W=ℕ³。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "w12",
+        "two-tower"
+      ],
+      "coverage": [
+        {
+          "label": "全部global口",
+          "domain": "(0,0,h)，h≥1",
+          "outcome": "N",
+          "target": null,
+          "proof": "w12",
+          "note": ""
+        },
+        {
+          "label": "全部邻柱口",
+          "domain": "(1,0,a)，a≥0",
+          "outcome": "N",
+          "target": null,
+          "proof": "w12",
+          "note": ""
+        },
+        {
+          "label": "全部有限侧口",
+          "domain": "9个实际侧点",
+          "outcome": "N",
+          "target": null,
+          "proof": "w12",
+          "note": "侧口需完整PN分类；affine本身不推出根P。"
+        }
+      ],
+      "bounds": [],
+      "depth": 5
+    },
+    {
+      "id": "W53",
+      "name": "W(5,3)",
+      "subtitle": "局部交叉族 · 两根ω柱",
+      "aliases": [
+        "W53"
+      ],
+      "outcome": "P",
+      "domain": "N3",
+      "definition": "[2,1,ω] ∪ [2,3,3] ∪ [3,1,5]",
+      "boxes": [
+        [
+          2,
+          1,
+          null
+        ],
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          3,
+          1,
+          5
+        ]
+      ],
+      "cuts": [],
+      "summary": "完整P策略；k=3整行仅n=5为P，n=5整列仅k=3为P。",
+      "scope": "局部两ω柱交叉族W(n,k)，不是完整W=ℕ³。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "w53",
+        "two-tower"
+      ],
+      "coverage": [
+        {
+          "label": "全部global口",
+          "domain": "(0,0,h)，h≥1",
+          "outcome": "N",
+          "target": null,
+          "proof": "w53",
+          "note": ""
+        },
+        {
+          "label": "全部邻柱口",
+          "domain": "(1,0,a)，a≥0",
+          "outcome": "N",
+          "target": null,
+          "proof": "w53",
+          "note": ""
+        },
+        {
+          "label": "全部有限侧口",
+          "domain": "17个实际侧点",
+          "outcome": "N",
+          "target": null,
+          "proof": "w53",
+          "note": "侧口需完整PN分类；affine本身不推出根P。"
+        }
+      ],
+      "bounds": [],
+      "depth": 5
+    },
+    {
+      "id": "W24",
+      "name": "W(2,4)",
+      "subtitle": "局部交叉族 · 两根ω柱",
+      "aliases": [
+        "W24"
+      ],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "[2,1,ω] ∪ [2,3,4] ∪ [3,1,2]",
+      "boxes": [
+        [
+          2,
+          1,
+          null
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          1,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "global口(0,0,7)到32点有限P。",
+      "scope": "局部两ω柱交叉族W(n,k)，不是完整W=ℕ³。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "w24",
+        "two-tower"
+      ],
+      "coverage": [
+        {
+          "label": "global获胜口",
+          "domain": "(0,0,7)",
+          "outcome": "P",
+          "target": "P32",
+          "proof": "w24",
+          "note": ""
+        },
+        {
+          "label": "全部邻柱口",
+          "domain": "(1,0,a)，a≥0",
+          "outcome": "N",
+          "target": null,
+          "proof": "w24",
+          "note": ""
+        },
+        {
+          "label": "全部有限侧口",
+          "domain": "18个实际侧点",
+          "outcome": "U",
+          "target": null,
+          "proof": "w24",
+          "note": "本汇总行未逐侧点展开统一PN；完整冻结闭包已含全部侧口PN，不能把这里的U理解成原证书未判。"
+        }
+      ],
+      "bounds": [],
+      "depth": 5
+    },
+    {
+      "id": "W25",
+      "name": "W(2,5)",
+      "subtitle": "局部交叉族 · 两根ω柱",
+      "aliases": [
+        "W25"
+      ],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "[2,1,ω] ∪ [2,3,5] ∪ [3,1,2]",
+      "boxes": [
+        [
+          2,
+          1,
+          null
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          3,
+          1,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "有限侧口(1,2,3)到两ω柱加20侧点的无限P★。",
+      "scope": "局部两ω柱交叉族W(n,k)，不是完整W=ℕ³。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "w25",
+        "two-tower"
+      ],
+      "coverage": [
+        {
+          "label": "全部global口",
+          "domain": "(0,0,h)，h≥1",
+          "outcome": "N",
+          "target": null,
+          "proof": "w25",
+          "note": "根正affine排除全部global P，但侧口仍可到P。"
+        },
+        {
+          "label": "全部邻柱口",
+          "domain": "(1,0,a)，a≥0",
+          "outcome": "N",
+          "target": null,
+          "proof": "w25",
+          "note": ""
+        },
+        {
+          "label": "全部有限侧口",
+          "domain": "22个实际侧点",
+          "outcome": "U",
+          "target": null,
+          "proof": "w25",
+          "note": "本汇总行未逐侧点展开统一PN；完整冻结闭包已含全部侧口PN，不能把这里的U理解成原证书未判。"
+        },
+        {
+          "label": "实际侧P后继",
+          "domain": "(1,2,3)",
+          "outcome": "P",
+          "target": "Pstar20",
+          "proof": "w25",
+          "note": ""
+        }
+      ],
+      "bounds": [],
+      "depth": 5
+    },
+    {
+      "id": "T1",
+      "name": "T1 · 七柱帽形",
+      "subtitle": "Y₇在(0,2,1)后的真实棋形",
+      "aliases": [
+        "T_1"
+      ],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "T_1 = [3,2,ω] ∪ [1,3,1]。",
+      "boxes": [
+        [
+          3,
+          2,
+          null
+        ],
+        [
+          1,
+          3,
+          1
+        ]
+      ],
+      "cuts": [],
+      "summary": "可沿另一裁口连接局部W族；保留每一步的轮次。",
+      "scope": "此处T₂不是完整W首口(1,1,1)后的三平面T。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "w12"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 4
+    },
+    {
+      "id": "T2",
+      "name": "T2 · 七柱帽形",
+      "subtitle": "Y₇在(0,2,2)后的真实棋形",
+      "aliases": [
+        "T_2"
+      ],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "T_2 = [3,2,ω] ∪ [1,3,2]。",
+      "boxes": [
+        [
+          3,
+          2,
+          null
+        ],
+        [
+          1,
+          3,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "可沿另一裁口连接局部W族；保留每一步的轮次。",
+      "scope": "此处T₂不是完整W首口(1,1,1)后的三平面T。",
+      "gap": "T₂仍未判PN；W24/W25均N只排除两个回复选择。",
+      "conjecture": null,
+      "proofs": [
+        "y7-scope"
+      ],
+      "coverage": [],
+      "bounds": [
+        "唯一共同P高度t₂>16；未证有限"
+      ],
+      "depth": 4
+    },
+    {
+      "id": "T5",
+      "name": "T5 · 七柱帽形",
+      "subtitle": "Y₇在(0,2,5)后的真实棋形",
+      "aliases": [
+        "T_5"
+      ],
+      "outcome": "N",
+      "domain": "N3",
+      "definition": "T_5 = [3,2,ω] ∪ [1,3,5]。",
+      "boxes": [
+        [
+          3,
+          2,
+          null
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "cuts": [],
+      "summary": "可沿另一裁口连接局部W族；保留每一步的轮次。",
+      "scope": "此处T₂不是完整W首口(1,1,1)后的三平面T。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "w53"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 4
+    },
+    {
+      "id": "Pstar20",
+      "name": "P★ · 20侧点",
+      "subtitle": "真正无限的两柱P模块",
+      "aliases": [
+        "P20",
+        "Pstar"
+      ],
+      "outcome": "P",
+      "domain": "N3",
+      "definition": "[2,1,ω] ∪ [2,2,5] ∪ [1,3,5] ∪ [2,3,3] ∪ [3,1,2]",
+      "boxes": [
+        [
+          2,
+          1,
+          null
+        ],
+        [
+          2,
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          3,
+          1,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "20个有限侧口与global/邻柱两个无限口族均有完整回复。",
+      "scope": "20指有限侧点数，整盘仍含两根ω柱；不是20点有限棋盘。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "w25",
+        "two-tower"
+      ],
+      "coverage": [
+        {
+          "label": "20个有限侧口",
+          "domain": "所有有限侧点",
+          "outcome": "N",
+          "target": null,
+          "proof": "w25",
+          "note": "15条回复进入有限P，5条进入更小侧部无限P。"
+        },
+        {
+          "label": "全部global口",
+          "domain": "(0,0,n)，n≥1",
+          "outcome": "N",
+          "target": null,
+          "proof": "w25",
+          "note": ""
+        },
+        {
+          "label": "全部邻柱口",
+          "domain": "(1,0,a)，a≥0",
+          "outcome": "N",
+          "target": null,
+          "proof": "w25",
+          "note": ""
+        }
+      ],
+      "bounds": [
+        "精确压缩周期24",
+        "global逆像例外恰为{1,3,4,5}"
+      ],
+      "depth": 6
+    },
+    {
+      "id": "Z13",
+      "name": "Z₃(13)",
+      "subtitle": "Γ₃的无限P目标",
+      "aliases": [
+        "Gamma3 winning target"
+      ],
+      "outcome": "P",
+      "domain": "N3",
+      "definition": "[2,1,13] ∪ [3,1,3] ∪ [1,ω,2]",
+      "boxes": [
+        [
+          2,
+          1,
+          13
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          1,
+          null,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "749行闭包与完整策略覆盖所有安全口。",
+      "scope": "两条y方向完整ω柱仍在；不是有限13层棋盘。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "gamma3",
+        "two-tower"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 6
+    },
+    {
+      "id": "R15",
+      "name": "R₁₅",
+      "subtitle": "Y₁的无限P目标",
+      "aliases": [],
+      "outcome": "P",
+      "domain": "N3",
+      "definition": "[3,1,15] ∪ [1,ω,2]",
+      "boxes": [
+        [
+          3,
+          1,
+          15
+        ],
+        [
+          1,
+          null,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "完整策略含25项邻柱低表、恒定位移23和22个global例外。",
+      "scope": "完整1215行大证书因单文件>5MB未镜像；主稿、策略与审核报告已收录。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "y1",
+        "two-tower"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 5
+    },
+    {
+      "id": "P30",
+      "name": "P₃₀",
+      "subtitle": "六柱高度5的有限P",
+      "aliases": [],
+      "outcome": "P",
+      "domain": "N3",
+      "definition": "[3,1,5] ∪ [2,2,5] ∪ [1,3,5]",
+      "boxes": [
+        [
+          3,
+          1,
+          5
+        ],
+        [
+          2,
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "cuts": [],
+      "summary": "892节点闭合有限证书，29个安全口全覆盖。",
+      "scope": "30点含毒块；有限点数严格下降归纳。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "y6"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 5
+    },
+    {
+      "id": "P40",
+      "name": "P₄₀",
+      "subtitle": "八柱高度5的有限P",
+      "aliases": [],
+      "outcome": "P",
+      "domain": "N3",
+      "definition": "[3,2,5] ∪ [2,3,5]",
+      "boxes": [
+        [
+          3,
+          2,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ],
+      "cuts": [],
+      "summary": "6338节点证书，39个根安全口全N。",
+      "scope": "40点含毒块；纯八柱α=5的P锚。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "y8"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 4
+    },
+    {
+      "id": "P32",
+      "name": "P₃₂",
+      "subtitle": "W24的有限P目标",
+      "aliases": [],
+      "outcome": "P",
+      "domain": "N3",
+      "definition": "[2,1,7] ∪ [2,3,4] ∪ [3,1,2]",
+      "boxes": [
+        [
+          2,
+          1,
+          7
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          1,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "2417态闭合有限证书，31个根安全口及续行已核。",
+      "scope": "标准坐标为W局部族；交换xy后是旧Q₁₇证书中的同一P根。",
+      "gap": "",
+      "conjecture": null,
+      "proofs": [
+        "w24"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 6
+    },
+    {
+      "id": "V50",
+      "name": "V₅₀",
+      "subtitle": "C₁₁最小尚未解决的高度",
+      "aliases": [],
+      "outcome": "U",
+      "domain": "N3",
+      "definition": "V₅₀ = [3,1,ω] ∪ [1,50,1] ∪ [1,2,2]。",
+      "boxes": [
+        [
+          3,
+          1,
+          null
+        ],
+        [
+          1,
+          50,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "cuts": [],
+      "summary": "C₁₁在(0,50,0)留下的局面，尚未判PN。",
+      "scope": "V₁…V₄₉=N来自已审停止快照，不包含V₅₀。",
+      "gap": "需要真实P后继或覆盖全部安全口的N证明。",
+      "conjecture": null,
+      "proofs": [
+        "c11-snapshot"
+      ],
+      "coverage": [],
+      "bounds": [],
+      "depth": 6
+    }
+  ],
+  "moves": [
+    {
+      "id": "W-Plane",
+      "to": "Plane",
+      "point": [
+        1,
+        0,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "root-cuts",
+      "note": "",
+      "from": "W"
+    },
+    {
+      "id": "W-Slab2",
+      "to": "Slab2",
+      "point": [
+        2,
+        0,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "root-cuts",
+      "note": "",
+      "from": "W"
+    },
+    {
+      "id": "W-F011",
+      "to": "F011",
+      "point": [
+        0,
+        1,
+        1
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "root-cuts",
+      "note": "",
+      "from": "W"
+    },
+    {
+      "id": "Plane-L",
+      "to": "L",
+      "point": [
+        0,
+        1,
+        1
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "basic-p",
+      "note": "",
+      "from": "Plane"
+    },
+    {
+      "id": "Slab2-TwoOmega",
+      "to": "TwoOmega",
+      "point": [
+        0,
+        1,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "basic-p",
+      "note": "",
+      "from": "Slab2"
+    },
+    {
+      "id": "F011-L",
+      "to": "L",
+      "point": [
+        1,
+        0,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "basic-p",
+      "note": "",
+      "from": "F011"
+    },
+    {
+      "id": "W-T",
+      "to": "T",
+      "point": [
+        1,
+        1,
+        1
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "root-cuts",
+      "note": "",
+      "from": "W"
+    },
+    {
+      "id": "W-A3",
+      "to": "A3",
+      "point": [
+        3,
+        0,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "mainline",
+      "note": "",
+      "from": "W"
+    },
+    {
+      "id": "T-A3T",
+      "to": "A3T",
+      "point": [
+        3,
+        0,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "mainline",
+      "note": "三平面轴截，不等于W的一口三层板。",
+      "from": "T"
+    },
+    {
+      "id": "A3T-Q123",
+      "to": "Q123",
+      "point": [
+        0,
+        1,
+        2
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "mainline",
+      "note": "",
+      "from": "A3T"
+    },
+    {
+      "id": "Q123-U3",
+      "to": "U3",
+      "point": [
+        0,
+        2,
+        1
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "mainline",
+      "note": "",
+      "from": "Q123"
+    },
+    {
+      "id": "Q123-Y1",
+      "to": "Y1",
+      "point": [
+        1,
+        1,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "mainline",
+      "note": "实际盒子裁切；Y₁=N只排除Q的这个首口。",
+      "from": "Q123"
+    },
+    {
+      "id": "Y1-Gamma3",
+      "to": "Gamma3",
+      "point": [
+        2,
+        0,
+        3
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "mainline",
+      "note": "第三z柱截为3；两个节点均已N，边不表示制胜。",
+      "from": "Y1"
+    },
+    {
+      "id": "U3-C11",
+      "to": "C11",
+      "point": [
+        1,
+        1,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "mainline",
+      "note": "",
+      "from": "U3"
+    },
+    {
+      "id": "U3-C12",
+      "to": "C12",
+      "point": [
+        1,
+        2,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "mainline",
+      "note": "",
+      "from": "U3"
+    },
+    {
+      "id": "C12-C11",
+      "to": "C11",
+      "point": [
+        1,
+        1,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "c12-scope",
+      "note": "",
+      "from": "C12"
+    },
+    {
+      "id": "C11-V50",
+      "to": "V50",
+      "point": [
+        0,
+        50,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "c11-snapshot",
+      "note": "",
+      "from": "C11"
+    },
+    {
+      "id": "A3-J",
+      "to": "J",
+      "point": [
+        0,
+        3,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "j-scope",
+      "note": "",
+      "from": "A3"
+    },
+    {
+      "id": "J-Y7",
+      "to": "Y7",
+      "point": [
+        1,
+        2,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "j-scope",
+      "note": "",
+      "from": "J"
+    },
+    {
+      "id": "J-Y8",
+      "to": "Y8",
+      "point": [
+        2,
+        2,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "y8",
+      "note": "",
+      "from": "J"
+    },
+    {
+      "id": "Y7-Y6",
+      "to": "Y6",
+      "point": [
+        2,
+        1,
+        0
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "y6",
+      "note": "",
+      "from": "Y7"
+    },
+    {
+      "id": "Y7-T1",
+      "to": "T1",
+      "point": [
+        0,
+        2,
+        1
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "w12",
+      "note": "",
+      "from": "Y7"
+    },
+    {
+      "id": "T1-W12",
+      "to": "W12",
+      "point": [
+        1,
+        0,
+        2
+      ],
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "proof": "w12",
+      "note": "后继交换x/y后才是W(1,2)。",
+      "from": "T1"
+    },
+    {
+      "id": "Y7-T5",
+      "to": "T5",
+      "point": [
+        0,
+        2,
+        5
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "w53",
+      "note": "",
+      "from": "Y7"
+    },
+    {
+      "id": "T5-W53",
+      "to": "W53",
+      "point": [
+        1,
+        0,
+        3
+      ],
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "proof": "w53",
+      "note": "后继交换x/y后才是W(5,3)。",
+      "from": "T5"
+    },
+    {
+      "id": "Y7-T2",
+      "to": "T2",
+      "point": [
+        0,
+        2,
+        2
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "y7-scope",
+      "note": "",
+      "from": "Y7"
+    },
+    {
+      "id": "T2-W24",
+      "to": "W24",
+      "point": [
+        1,
+        0,
+        4
+      ],
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "proof": "w24",
+      "note": "",
+      "from": "T2"
+    },
+    {
+      "id": "T2-W25",
+      "to": "W25",
+      "point": [
+        1,
+        0,
+        5
+      ],
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "proof": "w25",
+      "note": "",
+      "from": "T2"
+    },
+    {
+      "id": "W24-P32",
+      "to": "P32",
+      "point": [
+        0,
+        0,
+        7
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "w24",
+      "note": "",
+      "from": "W24"
+    },
+    {
+      "id": "W25-Pstar20",
+      "to": "Pstar20",
+      "point": [
+        1,
+        2,
+        3
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "w25",
+      "note": "",
+      "from": "W25"
+    },
+    {
+      "id": "Y6-P30",
+      "to": "P30",
+      "point": [
+        0,
+        0,
+        5
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "y6",
+      "note": "",
+      "from": "Y6"
+    },
+    {
+      "id": "Y8-P40",
+      "to": "P40",
+      "point": [
+        0,
+        0,
+        5
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "y8",
+      "note": "",
+      "from": "Y8"
+    },
+    {
+      "id": "Gamma3-Z13",
+      "to": "Z13",
+      "point": [
+        0,
+        0,
+        13
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "gamma3",
+      "note": "",
+      "from": "Gamma3"
+    },
+    {
+      "id": "Y1-R15",
+      "to": "R15",
+      "point": [
+        0,
+        0,
+        15
+      ],
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "proof": "y1",
+      "note": "",
+      "from": "Y1"
+    }
+  ],
+  "proofs": [
+    {
+      "id": "root-cuts",
+      "title": "完整W的首口参数化与三类已排首步",
+      "status": "proved",
+      "summary": "每个首口都由非零自然三元组索引；三类具体口及其坐标置换的后继已证N。",
+      "scope": "全部首口参数化是全称结论；已排三类只覆盖9个具体首口。",
+      "sourcePath": "content/sources/root-cuts.md",
+      "dependencies": [
+        "basic-p"
+      ],
+      "bodyFile": "content/proofs/root-cuts.md",
+      "evidence": [
+        {
+          "label": "首口参数化完整正文",
+          "type": "manuscript",
+          "file": "content/sources/root-cuts.md"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "Plane",
+          "outcome": "N"
+        },
+        {
+          "position": "Slab2",
+          "outcome": "N"
+        },
+        {
+          "position": "F011",
+          "outcome": "N"
+        }
+      ],
+      "date": "2026-10-13"
+    },
+    {
+      "id": "basic-p",
+      "title": "两种基本无限P：正交L与相邻双柱",
+      "status": "proved",
+      "summary": "给出覆盖所有安全口并持续到终局的直接回复。",
+      "scope": "毒块安全口规则；两种棋形不能互相混同。",
+      "sourcePath": "content/sources/y6-proof.md",
+      "dependencies": [],
+      "bodyFile": "content/proofs/basic-p.md",
+      "evidence": [
+        {
+          "label": "六柱主稿：基本双柱策略与完整有限续行",
+          "type": "manuscript",
+          "file": "content/sources/y6-proof.md"
+        },
+        {
+          "label": "正交L的直接证明",
+          "type": "manuscript",
+          "file": "content/sources/root-cuts.md"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "L",
+          "outcome": "P"
+        },
+        {
+          "position": "TwoOmega",
+          "outcome": "P"
+        }
+      ],
+      "date": "2026-10-13"
+    },
+    {
+      "id": "mainline",
+      "title": "真实咬口链与A₃同名纠正",
+      "status": "scope",
+      "summary": "每条边只表示一次真实安全裁切；多口链不合并成获胜首步。",
+      "scope": "本站明确分开完整W的三层板A₃与三平面T的轴截A₃ᵀ。",
+      "sourcePath": "content/sources/mainline-interfaces.md",
+      "dependencies": [
+        "root-cuts"
+      ],
+      "bodyFile": "content/proofs/mainline.md",
+      "evidence": [
+        {
+          "label": "原主线精确接口",
+          "type": "manuscript",
+          "file": "content/sources/mainline-interfaces.md"
+        },
+        {
+          "label": "T、Aₐ与Q的定义",
+          "type": "manuscript",
+          "file": "content/sources/root-cuts.md"
+        },
+        {
+          "label": "三层板A₃到J的另一条路线",
+          "type": "scope",
+          "file": "content/sources/j-round28.md"
+        }
+      ],
+      "outcomes": [],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "two-tower",
+      "title": "固定有限侧部的双ω柱定理",
+      "status": "proved",
+      "summary": "精确高度递推必锁为常数尾或正周期偏移尾，给固定侧部的P/N与策略总停机。",
+      "scope": "只针对两相邻完整ω柱加固定有限E；不推出增长侧部的全参数来源覆盖。",
+      "sourcePath": "content/sources/two-tower-theorem.md",
+      "dependencies": [],
+      "bodyFile": "content/proofs/two-tower.md",
+      "evidence": [
+        {
+          "label": "完整总停机与尾型证明",
+          "type": "manuscript",
+          "file": "content/sources/two-tower-theorem.md"
+        },
+        {
+          "label": "通用定理独立审查",
+          "type": "audit",
+          "file": "content/sources/two-tower-theorem-audit.md"
+        }
+      ],
+      "outcomes": [],
+      "date": "2026-10-13"
+    },
+    {
+      "id": "c11-nony",
+      "title": "C₁₁非y口全N与j≤ω",
+      "status": "proved",
+      "summary": "逐类给出全部非y安全口的实际P回复；因此C₁₁=P等价于j=ω。",
+      "scope": "无条件全参数结果，不假定全部β有限。",
+      "sourcePath": "content/sources/c11-nony-height.md",
+      "dependencies": [
+        "basic-p"
+      ],
+      "bodyFile": "content/proofs/c11-nony.md",
+      "evidence": [
+        {
+          "label": "全部非y口与高度范围完整重核",
+          "type": "manuscript",
+          "file": "content/sources/c11-nony-height.md"
+        }
+      ],
+      "outcomes": [],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "c11-snapshot",
+      "title": "C₁₁第69轮：50≤j≤ω，主PN未解",
+      "status": "open",
+      "summary": "沿用已审停止快照V₁…V₄₉=N，C₁₁与V₅₀仍未知。",
+      "scope": "本条是研究状态与证据范围，不是C₁₁的PN证明。",
+      "sourcePath": "content/sources/c11-round69.md",
+      "dependencies": [
+        "c11-nony"
+      ],
+      "bodyFile": "content/proofs/c11-snapshot.md",
+      "evidence": [
+        {
+          "label": "第69轮报告",
+          "type": "scope",
+          "file": "content/sources/c11-round69.md"
+        },
+        {
+          "label": "第69轮绑定后的核验状态",
+          "type": "audit",
+          "file": "content/sources/c11-round69-status.json"
+        },
+        {
+          "label": "配对来源猜想与准确条件后果",
+          "type": "conditional",
+          "file": "content/sources/c11-paired-source-scope.md"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "C11",
+          "outcome": "U"
+        },
+        {
+          "position": "V50",
+          "outcome": "U"
+        }
+      ],
+      "date": "2026-10-15"
+    },
+    {
+      "id": "c11-consequences",
+      "title": "判定C₁₁会怎样传递到上层？",
+      "status": "conditional",
+      "summary": "P分支立即判U₃和全部更长C₁,n为N；N分支给有限唯一获胜y口。",
+      "scope": "结论均保留前提；不自动判Q、A₃、T或W。",
+      "sourcePath": "content/sources/c12-interface.md",
+      "dependencies": [
+        "c11-nony",
+        "mainline"
+      ],
+      "bodyFile": "content/proofs/c11-consequences.md",
+      "evidence": [
+        {
+          "label": "C族全参数实际接口与条件高度",
+          "type": "conditional",
+          "file": "content/sources/c12-interface.md"
+        },
+        {
+          "label": "j≤ω的完整依据",
+          "type": "manuscript",
+          "file": "content/sources/c11-nony-height.md"
+        },
+        {
+          "label": "母子局面真实连接",
+          "type": "scope",
+          "file": "content/sources/mainline-interfaces.md"
+        }
+      ],
+      "outcomes": [],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "c12-scope",
+      "title": "C₁₂的剩余口与条件高度",
+      "status": "conditional",
+      "summary": "g口精确到C₁₁；其余非y后继已N，高y族仍待判。",
+      "scope": "κ₂≤ω只在C₁₁=N条件下成立；不能无条件使用。",
+      "sourcePath": "content/sources/c12-interface.md",
+      "dependencies": [
+        "c11-nony",
+        "mainline",
+        "periodic-mex"
+      ],
+      "bodyFile": "content/proofs/c12-scope.md",
+      "evidence": [
+        {
+          "label": "C₁₂完整口分类与条件证明",
+          "type": "manuscript",
+          "file": "content/sources/c12-interface.md"
+        },
+        {
+          "label": "后续J₅=N的完整主稿",
+          "type": "manuscript",
+          "file": "content/sources/j5-proof.md"
+        },
+        {
+          "label": "117列高度完整证书",
+          "type": "certificate",
+          "file": "content/sources/j5-height-certificate.json"
+        },
+        {
+          "label": "117状态无限PN完整闭包",
+          "type": "certificate",
+          "file": "content/sources/j5-kernel-certificate.json"
+        },
+        {
+          "label": "全部高度归纳义务核验",
+          "type": "audit",
+          "file": "content/sources/j5-height-audit.json"
+        },
+        {
+          "label": "全部PN几何及策略核验",
+          "type": "audit",
+          "file": "content/sources/j5-strategy-audit.json"
+        },
+        {
+          "label": "J₅与C₁₂范围独立审查",
+          "type": "audit",
+          "file": "content/sources/j5-independent-audit.md"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "C12",
+          "outcome": "U"
+        }
+      ],
+      "date": "2026-10-13"
+    },
+    {
+      "id": "j-scope",
+      "title": "九柱J的真实口族与上层接口",
+      "status": "scope",
+      "summary": "W→三层板A₃→J；J的五种横向口型和global口须分别覆盖。",
+      "scope": "Y₈=N、Y₇未知以及指定后继N都不决定J本身。",
+      "sourcePath": "content/sources/j-mouths.md",
+      "dependencies": [
+        "root-cuts",
+        "mainline"
+      ],
+      "bodyFile": "content/proofs/j-scope.md",
+      "evidence": [
+        {
+          "label": "J完整口分类与有限回复接口",
+          "type": "manuscript",
+          "file": "content/sources/j-mouths.md"
+        },
+        {
+          "label": "九柱路线与三柱宽度障碍",
+          "type": "scope",
+          "file": "content/sources/j-round28.md"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "J",
+          "outcome": "U"
+        },
+        {
+          "position": "A3",
+          "outcome": "U"
+        }
+      ],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "y7-scope",
+      "title": "七柱Y₇和帽形T₂的准确开放责任",
+      "status": "open",
+      "summary": "ξ>18、全部地面口N与24个指定正高度后继N，尚不判七柱。",
+      "scope": "采用主线正式第38轮；不把库存缺席或未发布轮次计作结果。",
+      "sourcePath": "content/sources/published-main-round38.md",
+      "dependencies": [
+        "y6",
+        "matching",
+        "w12",
+        "w53",
+        "w24",
+        "w25"
+      ],
+      "bodyFile": "content/proofs/y7-scope.md",
+      "evidence": [
+        {
+          "label": "主线正式第38轮范围",
+          "type": "scope",
+          "file": "content/sources/published-main-round38.md"
+        },
+        {
+          "label": "全部地面口和完整安全口分区",
+          "type": "manuscript",
+          "file": "content/sources/y6-proof.md"
+        },
+        {
+          "label": "变动P匹配的全部量词限制",
+          "type": "manuscript",
+          "file": "content/sources/y7-matching-theory.md"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "Y7",
+          "outcome": "U"
+        },
+        {
+          "position": "T2",
+          "outcome": "U"
+        }
+      ],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "matching",
+      "title": "有限纯锚迫使A/W匹配有限",
+      "status": "proved",
+      "summary": "若ξ=H<ω，则两条双柱路线的正参数P匹配总数≤4H−7。",
+      "scope": "无穷匹配仅推出ξ≥ω；尚无ξ≤ω或Y₇=P。",
+      "sourcePath": "content/sources/y7-matching-theory.md",
+      "dependencies": [
+        "w12",
+        "w53",
+        "w25"
+      ],
+      "bodyFile": "content/proofs/matching.md",
+      "evidence": [
+        {
+          "label": "完整匹配数量界及序数范围证明",
+          "type": "manuscript",
+          "file": "content/sources/y7-matching-theory.md"
+        },
+        {
+          "label": "纯锚与前部锚碰撞完整证明",
+          "type": "manuscript",
+          "file": "content/sources/y7-anchor-collision.md"
+        }
+      ],
+      "outcomes": [],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "gamma3",
+      "title": "Γ₃=N：global13到无限P根",
+      "status": "proved",
+      "summary": "实际首口(0,0,13)到Z₃(13)=P，并有覆盖全部安全口的持续策略。",
+      "scope": "不是完整W或C₁₁的PN判定；不宣称所有方向仅此一胜口。",
+      "sourcePath": "content/sources/gamma3-proof.md",
+      "dependencies": [
+        "two-tower"
+      ],
+      "bodyFile": "content/proofs/gamma3.md",
+      "evidence": [
+        {
+          "label": "Γ₃完整主证明",
+          "type": "manuscript",
+          "file": "content/sources/gamma3-proof.md"
+        },
+        {
+          "label": "全部口的人读策略",
+          "type": "manuscript",
+          "file": "content/sources/gamma3-strategy.md"
+        },
+        {
+          "label": "749行完整证书",
+          "type": "certificate",
+          "file": "content/sources/gamma3-certificate.json"
+        },
+        {
+          "label": "完整策略数据",
+          "type": "strategy",
+          "file": "content/sources/gamma3-strategy.json"
+        },
+        {
+          "label": "FSM独立重放",
+          "type": "audit",
+          "file": "content/sources/gamma3-fsm-audit.json"
+        },
+        {
+          "label": "PN及实际首口审核",
+          "type": "audit",
+          "file": "content/sources/gamma3-pn-audit.json"
+        },
+        {
+          "label": "完整策略审核",
+          "type": "audit",
+          "file": "content/sources/gamma3-strategy-audit.json"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "Gamma3",
+          "outcome": "N"
+        },
+        {
+          "position": "Z13",
+          "outcome": "P"
+        }
+      ],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "y1",
+      "title": "Y₁=N：global15到无限R₁₅=P",
+      "status": "proved",
+      "summary": "在(0,0,15)到无限P的R₁₅，并给全部后续应答。",
+      "scope": "仅global z方向的P截面唯一为15；其它方向胜口不宣称唯一。",
+      "sourcePath": "content/sources/y1-strategy.md",
+      "dependencies": [
+        "two-tower"
+      ],
+      "bodyFile": "content/proofs/y1.md",
+      "evidence": [
+        {
+          "label": "Y₁完整证明与全口策略",
+          "type": "manuscript",
+          "file": "content/sources/y1-strategy.md"
+        },
+        {
+          "label": "全部策略数据",
+          "type": "strategy",
+          "file": "content/sources/y1-strategy.json"
+        },
+        {
+          "label": "1215行FSM审核结果",
+          "type": "audit",
+          "file": "content/sources/y1-fsm-audit.json"
+        },
+        {
+          "label": "完整PN和实际首口审核",
+          "type": "audit",
+          "file": "content/sources/y1-pn-audit.json"
+        },
+        {
+          "label": "全部策略独立审核",
+          "type": "audit",
+          "file": "content/sources/y1-strategy-audit.json"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "Y1",
+          "outcome": "N"
+        },
+        {
+          "position": "R15",
+          "outcome": "P"
+        }
+      ],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "y6",
+      "title": "Y₆=N：高度5的30点P锚",
+      "status": "proved",
+      "summary": "global5到P₃₀，892节点有限闭包给全部持续应答。",
+      "scope": "纯六柱D₆×α恰在α=5为P；不覆盖第七柱的正高度帽。",
+      "sourcePath": "content/sources/y6-proof.md",
+      "dependencies": [
+        "basic-p"
+      ],
+      "bodyFile": "content/proofs/y6.md",
+      "evidence": [
+        {
+          "label": "完整主稿、29口表与全部地面口证明",
+          "type": "manuscript",
+          "file": "content/sources/y6-proof.md"
+        },
+        {
+          "label": "892节点闭合证书",
+          "type": "certificate",
+          "file": "content/sources/y6-certificate.json"
+        },
+        {
+          "label": "根独立坐标审核",
+          "type": "audit",
+          "file": "content/sources/y6-pn-audit.json"
+        },
+        {
+          "label": "第二独立坐标审核",
+          "type": "audit",
+          "file": "content/sources/y6-independent-audit.json"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "Y6",
+          "outcome": "N"
+        },
+        {
+          "position": "P30",
+          "outcome": "P"
+        }
+      ],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "y8",
+      "title": "Y₈=N：高度5的40点P锚",
+      "status": "proved",
+      "summary": "global5到P₄₀；6338节点证书穷尽全部有限P口。",
+      "scope": "纯八柱产品唯一正P高度5；不覆盖带第九列有限帽的族。",
+      "sourcePath": "content/sources/y8-proof.md",
+      "dependencies": [],
+      "bodyFile": "content/proofs/y8.md",
+      "evidence": [
+        {
+          "label": "完整主证明与全高度范围",
+          "type": "manuscript",
+          "file": "content/sources/y8-proof.md"
+        },
+        {
+          "label": "6338节点完整证书",
+          "type": "certificate",
+          "file": "content/sources/y8-certificate.json"
+        },
+        {
+          "label": "根全图审核",
+          "type": "audit",
+          "file": "content/sources/y8-pn-audit.json"
+        },
+        {
+          "label": "第二原坐标审核",
+          "type": "audit",
+          "file": "content/sources/y8-independent-audit.json"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "Y8",
+          "outcome": "N"
+        },
+        {
+          "position": "P40",
+          "outcome": "P"
+        }
+      ],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "w12",
+      "title": "局部W(1,2)=P的完整策略",
+      "status": "proved",
+      "summary": "40行固定侧部闭包证明P，并完整分类k=2参数线。",
+      "scope": "W(n,k)是局部族，不能与完整W混同。",
+      "sourcePath": "content/sources/w12-proof.md",
+      "dependencies": [
+        "two-tower"
+      ],
+      "bodyFile": "content/proofs/w12.md",
+      "evidence": [
+        {
+          "label": "完整P证明与逐口策略",
+          "type": "manuscript",
+          "file": "content/sources/w12-proof.md"
+        },
+        {
+          "label": "40行完整高度及PN证书",
+          "type": "certificate",
+          "file": "content/sources/w12-certificate.json"
+        },
+        {
+          "label": "全部策略JSON",
+          "type": "strategy",
+          "file": "content/sources/w12-strategy.json"
+        },
+        {
+          "label": "FSM审核",
+          "type": "audit",
+          "file": "content/sources/w12-fsm-audit.json"
+        },
+        {
+          "label": "PN及几何审核",
+          "type": "audit",
+          "file": "content/sources/w12-pn-audit.json"
+        },
+        {
+          "label": "完整策略独审",
+          "type": "audit",
+          "file": "content/sources/w12-strategy-audit.json"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "W12",
+          "outcome": "P"
+        },
+        {
+          "position": "T1",
+          "outcome": "N"
+        }
+      ],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "w53",
+      "title": "局部W(5,3)=P及两条完整参数线",
+      "status": "proved",
+      "summary": "300行闭包证明P；k=3整行与n=5整列各恰一个P。",
+      "scope": "自然参数及ω端点已证明，不能推广到任意参数网格覆盖。",
+      "sourcePath": "content/sources/w53-proof.md",
+      "dependencies": [
+        "two-tower",
+        "w12"
+      ],
+      "bodyFile": "content/proofs/w53.md",
+      "evidence": [
+        {
+          "label": "完整主证明、48周期表和两条参数线",
+          "type": "manuscript",
+          "file": "content/sources/w53-proof.md"
+        },
+        {
+          "label": "300行完整证书",
+          "type": "certificate",
+          "file": "content/sources/w53-certificate.json"
+        },
+        {
+          "label": "全部策略JSON",
+          "type": "strategy",
+          "file": "content/sources/w53-strategy.json"
+        },
+        {
+          "label": "FSM审核",
+          "type": "audit",
+          "file": "content/sources/w53-fsm-audit.json"
+        },
+        {
+          "label": "PN及实际几何审核",
+          "type": "audit",
+          "file": "content/sources/w53-pn-audit.json"
+        },
+        {
+          "label": "完整策略独审",
+          "type": "audit",
+          "file": "content/sources/w53-strategy-audit.json"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "W53",
+          "outcome": "P"
+        },
+        {
+          "position": "T5",
+          "outcome": "N"
+        }
+      ],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "w24",
+      "title": "局部W(2,4)=N：global7到P₃₂",
+      "status": "proved",
+      "summary": "实际global7到32点有限P，2417态闭包给完整后续策略。",
+      "scope": "仅本节点；不判T₂、Y₇或整行整列。",
+      "sourcePath": "content/sources/w24-proof.md",
+      "dependencies": [
+        "two-tower"
+      ],
+      "bodyFile": "content/proofs/w24.md",
+      "evidence": [
+        {
+          "label": "完整主证明与持续策略",
+          "type": "manuscript",
+          "file": "content/sources/w24-proof.md"
+        },
+        {
+          "label": "P₃₂的31口完整表",
+          "type": "manuscript",
+          "file": "content/sources/w24-tables.md"
+        },
+        {
+          "label": "315行无限高度与PN证书",
+          "type": "certificate",
+          "file": "content/sources/w24-certificate.json"
+        },
+        {
+          "label": "2417态闭合有限P证书",
+          "type": "certificate",
+          "file": "content/sources/p32-certificate.json"
+        },
+        {
+          "label": "P₃₂全部续行策略",
+          "type": "strategy",
+          "file": "content/sources/p32-strategy.json"
+        },
+        {
+          "label": "FSM独审",
+          "type": "audit",
+          "file": "content/sources/w24-fsm-audit.json"
+        },
+        {
+          "label": "PN及无限几何独审",
+          "type": "audit",
+          "file": "content/sources/w24-pn-audit.json"
+        },
+        {
+          "label": "有限闭包与全部策略独审",
+          "type": "audit",
+          "file": "content/sources/p32-strategy-audit.json"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "W24",
+          "outcome": "N"
+        },
+        {
+          "position": "P32",
+          "outcome": "P"
+        }
+      ],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "w25",
+      "title": "局部W(2,5)=N与无限P★的全部策略",
+      "status": "proved",
+      "summary": "实际侧口(1,2,3)到双ω柱加20侧点的P★。",
+      "scope": "P★仍无限；正affine根W25仍可经侧口到P而N。",
+      "sourcePath": "content/sources/w25-proof.md",
+      "dependencies": [
+        "two-tower"
+      ],
+      "bodyFile": "content/proofs/w25.md",
+      "evidence": [
+        {
+          "label": "完整主稿：无限PN、全部口与续行",
+          "type": "manuscript",
+          "file": "content/sources/w25-proof.md"
+        },
+        {
+          "label": "完整20侧口、低表与周期表",
+          "type": "manuscript",
+          "file": "content/sources/pstar20-tables.md"
+        },
+        {
+          "label": "588行完整源证书",
+          "type": "certificate",
+          "file": "content/sources/w25-certificate.json"
+        },
+        {
+          "label": "P★全部策略JSON",
+          "type": "strategy",
+          "file": "content/sources/pstar20-strategy.json"
+        },
+        {
+          "label": "独立FSM重放",
+          "type": "audit",
+          "file": "content/sources/w25-fsm-audit.json"
+        },
+        {
+          "label": "全部PN与原坐标几何审核",
+          "type": "audit",
+          "file": "content/sources/w25-pn-audit.json"
+        },
+        {
+          "label": "完整无限策略独审",
+          "type": "audit",
+          "file": "content/sources/pstar20-strategy-audit.json"
+        },
+        {
+          "label": "综合数学范围与人读策略审核",
+          "type": "audit",
+          "file": "content/sources/w25-full-audit.md"
+        }
+      ],
+      "outcomes": [
+        {
+          "position": "W25",
+          "outcome": "N"
+        },
+        {
+          "position": "Pstar20",
+          "outcome": "P"
+        }
+      ],
+      "date": "2026-10-14"
+    },
+    {
+      "id": "periodic-mex",
+      "title": "周期mex平移引理",
+      "status": "proved",
+      "summary": "有限闭包与完整边带义务经强归纳证明全部参数，不由样本周期外推。",
+      "scope": "满足准确实际口、活动筛选和封闭归纳条件的高度列；不是任意数列的周期猜想。",
+      "sourcePath": "content/sources/periodic-mex.md",
+      "dependencies": [],
+      "bodyFile": "content/proofs/periodic-mex.md",
+      "evidence": [
+        {
+          "label": "完整平移引理与有限义务界",
+          "type": "manuscript",
+          "file": "content/sources/periodic-mex.md"
+        }
+      ],
+      "outcomes": [],
+      "date": "2026-10-13"
+    }
+  ],
+  "questions": [
+    {
+      "id": "root-outcome",
+      "title": "完整W是P还是N？",
+      "position": "W",
+      "description": "N只需一个实际P后继；P须穷尽全部非零自然三元组首口。已排部分首口不能替代全称证明。"
+    },
+    {
+      "id": "c11-source",
+      "title": "C₁₁的全部有限高度能否被捕获？",
+      "position": "C11",
+      "description": "工作猜想P/j=ω仍未证；proper有限体可能丢失完整来源几何，跨高度回收及合流费用尚未闭合。"
+    },
+    {
+      "id": "y7-match",
+      "title": "七柱是否有覆盖所有高口的变动P族？",
+      "position": "Y7",
+      "description": "固定侧部总可判不等于增长侧部的逐列P存在。无穷A/W匹配只推ξ≥ω，尚缺ξ≤ω。"
+    },
+    {
+      "id": "t2-anchor",
+      "title": "T₂是否有有限P截面？",
+      "position": "T2",
+      "description": "只读已审缓存给t₂>16；未证明其有限，也未由W24/W25两个N回复判T₂。"
+    },
+    {
+      "id": "v50",
+      "title": "最小尚未解决高度V₅₀",
+      "position": "V50",
+      "description": "V₁…V₄₉=N；V₅₀与主C₁₁仍未知。"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-13",
+      "title": "精确根首口与固定两柱工具",
+      "description": "参数化完整W的全部首口，并建立两相邻ω柱加固定有限侧部的锁定/FSM证明接口。"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Γ₃、Y₁、Y₆、Y₈得到完整N策略",
+      "description": "这些节点各有一个实际口到已证P，证明范围不自动传播为根W的判定。"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "主线正式第38轮",
+      "description": "W(2,5)=N，侧口到无限P★；有限纯锚给A/W匹配总数界。Y₇/J/W仍未知。"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "C₁₁第69轮已审快照",
+      "description": "沿用50≤j≤ω及V₁…V₄₉=N；C₁₁、V₅₀和完整策略仍未解，P/j=ω是猜想。"
+    }
+  ],
+  "publications": []
+}

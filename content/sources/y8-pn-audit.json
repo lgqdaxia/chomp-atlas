@@ -1,0 +1,54 @@
+{
+  "all_checks_passed": true,
+  "family": "Y8",
+  "source_sha256": "cd267ca97bd0cb4c0566d049cd68da2758e560903392fe6e14fdb56121ab06f7",
+  "finite_states": 6338,
+  "P_states": 805,
+  "proof_edges": 20284,
+  "roots": [
+    {
+      "height": 1,
+      "P": false,
+      "points": 8,
+      "root": 104
+    },
+    {
+      "height": 2,
+      "P": false,
+      "points": 16,
+      "root": 1487
+    },
+    {
+      "height": 3,
+      "P": false,
+      "points": 24,
+      "root": 4787
+    },
+    {
+      "height": 4,
+      "P": false,
+      "points": 32,
+      "root": 6199
+    },
+    {
+      "height": 5,
+      "P": true,
+      "points": 40,
+      "root": 6337
+    }
+  ],
+  "J_first_mouth": [
+    2,
+    2,
+    0
+  ],
+  "exact_global_interfaces": 5,
+  "infinite_PN": "N",
+  "winning_mouth": [
+    0,
+    0,
+    5
+  ],
+  "J": "unresolved",
+  "W": "unresolved"
+}

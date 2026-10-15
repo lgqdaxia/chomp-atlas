@@ -1,0 +1,1227 @@
+{
+  "scope": "W24=N by global7, then full P32 finite strategy",
+  "complete_certificate": "research_lines/omega3/working/j_focus37/W24/W24_global7_P32_existing_complete_certificate.json",
+  "certificate_sha256": "2f641a14fef329b2b8ab05072031faa6b21087ad3c6dfd6f2cf90acc30813cf0",
+  "W24_boxes": [
+    [
+      2,
+      1,
+      null
+    ],
+    [
+      2,
+      3,
+      4
+    ],
+    [
+      3,
+      1,
+      2
+    ]
+  ],
+  "initial_winning_mouth": [
+    0,
+    0,
+    7
+  ],
+  "P_root": 2416,
+  "source_P_root": 61212,
+  "P_height": [
+    7,
+    4,
+    4,
+    7,
+    4,
+    4,
+    2,
+    0,
+    0
+  ],
+  "P_points": 32,
+  "all_safe_mouths": 31,
+  "first_round_replies": [
+    {
+      "opponent": [
+        0,
+        0,
+        1
+      ],
+      "N_child": 63,
+      "source_N_child": 63,
+      "reply": [
+        1,
+        1,
+        0
+      ],
+      "P_child": 21,
+      "source_P_child": 21,
+      "P_height": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "P_points": 5,
+      "Y7_original_opponent": [
+        0,
+        0,
+        1
+      ],
+      "Y7_original_reply": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        0,
+        2
+      ],
+      "N_child": 748,
+      "source_N_child": 919,
+      "reply": [
+        1,
+        0,
+        1
+      ],
+      "P_child": 208,
+      "source_P_child": 213,
+      "P_height": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "P_points": 10,
+      "Y7_original_opponent": [
+        0,
+        0,
+        2
+      ],
+      "Y7_original_reply": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        0,
+        3
+      ],
+      "N_child": 1948,
+      "source_N_child": 5098,
+      "reply": [
+        1,
+        1,
+        2
+      ],
+      "P_child": 1623,
+      "source_P_child": 3018,
+      "P_height": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "P_points": 18,
+      "Y7_original_opponent": [
+        0,
+        0,
+        3
+      ],
+      "Y7_original_reply": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        0,
+        4
+      ],
+      "N_child": 2351,
+      "source_N_child": 19781,
+      "reply": [
+        1,
+        1,
+        3
+      ],
+      "P_child": 2294,
+      "source_P_child": 12962,
+      "P_height": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        2,
+        0,
+        0
+      ],
+      "P_points": 24,
+      "Y7_original_opponent": [
+        0,
+        0,
+        4
+      ],
+      "Y7_original_reply": [
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        0,
+        5
+      ],
+      "N_child": 2392,
+      "source_N_child": 29491,
+      "reply": [
+        0,
+        1,
+        2
+      ],
+      "P_child": 1999,
+      "source_P_child": 5306,
+      "P_height": [
+        5,
+        2,
+        2,
+        5,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "P_points": 20,
+      "Y7_original_opponent": [
+        0,
+        0,
+        5
+      ],
+      "Y7_original_reply": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        0,
+        6
+      ],
+      "N_child": 2407,
+      "source_N_child": 42905,
+      "reply": [
+        1,
+        0,
+        2
+      ],
+      "P_child": 2197,
+      "source_P_child": 8466,
+      "P_height": [
+        6,
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "P_points": 22,
+      "Y7_original_opponent": [
+        0,
+        0,
+        6
+      ],
+      "Y7_original_reply": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        1,
+        0
+      ],
+      "N_child": 1402,
+      "source_N_child": 2124,
+      "reply": [
+        1,
+        0,
+        5
+      ],
+      "P_child": 960,
+      "source_P_child": 1203,
+      "P_height": [
+        7,
+        0,
+        0,
+        5,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "P_points": 14,
+      "Y7_original_opponent": [
+        1,
+        0,
+        0
+      ],
+      "Y7_original_reply": [
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        1,
+        1
+      ],
+      "N_child": 2066,
+      "source_N_child": 5788,
+      "reply": [
+        0,
+        0,
+        2
+      ],
+      "P_child": 215,
+      "source_P_child": 220,
+      "P_height": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      "P_points": 10,
+      "Y7_original_opponent": [
+        1,
+        0,
+        1
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        1,
+        2
+      ],
+      "N_child": 2323,
+      "source_N_child": 13860,
+      "reply": [
+        0,
+        0,
+        5
+      ],
+      "P_child": 1999,
+      "source_P_child": 5306,
+      "P_height": [
+        5,
+        2,
+        2,
+        5,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "P_points": 20,
+      "Y7_original_opponent": [
+        1,
+        0,
+        2
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        1,
+        3
+      ],
+      "N_child": 2400,
+      "source_N_child": 30373,
+      "reply": [
+        1,
+        0,
+        2
+      ],
+      "P_child": 2132,
+      "source_P_child": 7051,
+      "P_height": [
+        7,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "P_points": 21,
+      "Y7_original_opponent": [
+        1,
+        0,
+        3
+      ],
+      "Y7_original_reply": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        2,
+        0
+      ],
+      "N_child": 2325,
+      "source_N_child": 13868,
+      "reply": [
+        0,
+        0,
+        1
+      ],
+      "P_child": 22,
+      "source_P_child": 22,
+      "P_height": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "P_points": 5,
+      "Y7_original_opponent": [
+        2,
+        0,
+        0
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        2,
+        1
+      ],
+      "N_child": 2376,
+      "source_N_child": 20757,
+      "reply": [
+        0,
+        0,
+        5
+      ],
+      "P_child": 2195,
+      "source_P_child": 8409,
+      "P_height": [
+        5,
+        4,
+        1,
+        5,
+        4,
+        1,
+        2,
+        0,
+        0
+      ],
+      "P_points": 22,
+      "Y7_original_opponent": [
+        2,
+        0,
+        1
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        2,
+        2
+      ],
+      "N_child": 2402,
+      "source_N_child": 30375,
+      "reply": [
+        1,
+        0,
+        2
+      ],
+      "P_child": 2134,
+      "source_P_child": 7053,
+      "P_height": [
+        7,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "P_points": 21,
+      "Y7_original_opponent": [
+        2,
+        0,
+        2
+      ],
+      "Y7_original_reply": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "opponent": [
+        0,
+        2,
+        3
+      ],
+      "N_child": 2411,
+      "source_N_child": 43467,
+      "reply": [
+        0,
+        0,
+        4
+      ],
+      "P_child": 2295,
+      "source_P_child": 12963,
+      "P_height": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      "P_points": 24,
+      "Y7_original_opponent": [
+        2,
+        0,
+        3
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        0,
+        0
+      ],
+      "N_child": 1153,
+      "source_N_child": 1556,
+      "reply": [
+        0,
+        2,
+        3
+      ],
+      "P_child": 927,
+      "source_P_child": 1158,
+      "P_height": [
+        7,
+        4,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "P_points": 14,
+      "Y7_original_opponent": [
+        0,
+        1,
+        0
+      ],
+      "Y7_original_reply": [
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        0,
+        1
+      ],
+      "N_child": 1909,
+      "source_N_child": 4393,
+      "reply": [
+        0,
+        0,
+        2
+      ],
+      "P_child": 208,
+      "source_P_child": 213,
+      "P_height": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "P_points": 10,
+      "Y7_original_opponent": [
+        0,
+        1,
+        1
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        0,
+        2
+      ],
+      "N_child": 2269,
+      "source_N_child": 10930,
+      "reply": [
+        0,
+        0,
+        6
+      ],
+      "P_child": 2197,
+      "source_P_child": 8466,
+      "P_height": [
+        6,
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "P_points": 22,
+      "Y7_original_opponent": [
+        0,
+        1,
+        2
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        0,
+        3
+      ],
+      "N_child": 2357,
+      "source_N_child": 20288,
+      "reply": [
+        0,
+        1,
+        2
+      ],
+      "P_child": 2051,
+      "source_P_child": 5655,
+      "P_height": [
+        7,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "P_points": 20,
+      "Y7_original_opponent": [
+        0,
+        1,
+        3
+      ],
+      "Y7_original_reply": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        0,
+        4
+      ],
+      "N_child": 2404,
+      "source_N_child": 35953,
+      "reply": [
+        1,
+        2,
+        3
+      ],
+      "P_child": 2393,
+      "source_P_child": 29895,
+      "P_height": [
+        7,
+        4,
+        4,
+        4,
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      "P_points": 28,
+      "Y7_original_opponent": [
+        0,
+        1,
+        4
+      ],
+      "Y7_original_reply": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        0,
+        5
+      ],
+      "N_child": 2408,
+      "source_N_child": 43123,
+      "reply": [
+        0,
+        1,
+        0
+      ],
+      "P_child": 960,
+      "source_P_child": 1203,
+      "P_height": [
+        7,
+        0,
+        0,
+        5,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "P_points": 14,
+      "Y7_original_opponent": [
+        0,
+        1,
+        5
+      ],
+      "Y7_original_reply": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        0,
+        6
+      ],
+      "N_child": 2413,
+      "source_N_child": 51538,
+      "reply": [
+        1,
+        2,
+        0
+      ],
+      "P_child": 2386,
+      "source_P_child": 25031,
+      "P_height": [
+        7,
+        4,
+        4,
+        6,
+        4,
+        0,
+        2,
+        0,
+        0
+      ],
+      "P_points": 27,
+      "Y7_original_opponent": [
+        0,
+        1,
+        6
+      ],
+      "Y7_original_reply": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        1,
+        0
+      ],
+      "N_child": 2324,
+      "source_N_child": 13865,
+      "reply": [
+        0,
+        0,
+        1
+      ],
+      "P_child": 21,
+      "source_P_child": 21,
+      "P_height": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "P_points": 5,
+      "Y7_original_opponent": [
+        1,
+        1,
+        0
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        1,
+        1
+      ],
+      "N_child": 2375,
+      "source_N_child": 20752,
+      "reply": [
+        0,
+        0,
+        5
+      ],
+      "P_child": 2192,
+      "source_P_child": 8403,
+      "P_height": [
+        5,
+        4,
+        4,
+        5,
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      "P_points": 22,
+      "Y7_original_opponent": [
+        1,
+        1,
+        1
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        1,
+        2
+      ],
+      "N_child": 2401,
+      "source_N_child": 30374,
+      "reply": [
+        0,
+        0,
+        3
+      ],
+      "P_child": 1623,
+      "source_P_child": 3018,
+      "P_height": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "P_points": 18,
+      "Y7_original_opponent": [
+        1,
+        1,
+        2
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        1,
+        3
+      ],
+      "N_child": 2410,
+      "source_N_child": 43466,
+      "reply": [
+        0,
+        0,
+        4
+      ],
+      "P_child": 2294,
+      "source_P_child": 12962,
+      "P_height": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        2,
+        0,
+        0
+      ],
+      "P_points": 24,
+      "Y7_original_opponent": [
+        1,
+        1,
+        3
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        2,
+        0
+      ],
+      "N_child": 2403,
+      "source_N_child": 30376,
+      "reply": [
+        1,
+        0,
+        6
+      ],
+      "P_child": 2386,
+      "source_P_child": 25031,
+      "P_height": [
+        7,
+        4,
+        4,
+        6,
+        4,
+        0,
+        2,
+        0,
+        0
+      ],
+      "P_points": 27,
+      "Y7_original_opponent": [
+        2,
+        1,
+        0
+      ],
+      "Y7_original_reply": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        2,
+        1
+      ],
+      "N_child": 2406,
+      "source_N_child": 36415,
+      "reply": [
+        0,
+        0,
+        3
+      ],
+      "P_child": 1625,
+      "source_P_child": 3020,
+      "P_height": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        1,
+        2,
+        0,
+        0
+      ],
+      "P_points": 18,
+      "Y7_original_opponent": [
+        2,
+        1,
+        1
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        2,
+        2
+      ],
+      "N_child": 2412,
+      "source_N_child": 43468,
+      "reply": [
+        0,
+        0,
+        4
+      ],
+      "P_child": 2296,
+      "source_P_child": 12964,
+      "P_height": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        2,
+        2,
+        0,
+        0
+      ],
+      "P_points": 24,
+      "Y7_original_opponent": [
+        2,
+        1,
+        2
+      ],
+      "Y7_original_reply": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "opponent": [
+        1,
+        2,
+        3
+      ],
+      "N_child": 2415,
+      "source_N_child": 51744,
+      "reply": [
+        1,
+        0,
+        4
+      ],
+      "P_child": 2393,
+      "source_P_child": 29895,
+      "P_height": [
+        7,
+        4,
+        4,
+        4,
+        4,
+        3,
+        2,
+        0,
+        0
+      ],
+      "P_points": 28,
+      "Y7_original_opponent": [
+        2,
+        1,
+        3
+      ],
+      "Y7_original_reply": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "opponent": [
+        2,
+        0,
+        0
+      ],
+      "N_child": 2409,
+      "source_N_child": 43413,
+      "reply": [
+        1,
+        1,
+        3
+      ],
+      "P_child": 2395,
+      "source_P_child": 30314,
+      "P_height": [
+        7,
+        4,
+        4,
+        7,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "P_points": 28,
+      "Y7_original_opponent": [
+        0,
+        2,
+        0
+      ],
+      "Y7_original_reply": [
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "opponent": [
+        2,
+        0,
+        1
+      ],
+      "N_child": 2414,
+      "source_N_child": 51712,
+      "reply": [
+        1,
+        2,
+        2
+      ],
+      "P_child": 2405,
+      "source_P_child": 36377,
+      "P_height": [
+        7,
+        4,
+        4,
+        7,
+        4,
+        2,
+        1,
+        0,
+        0
+      ],
+      "P_points": 29,
+      "Y7_original_opponent": [
+        0,
+        2,
+        1
+      ],
+      "Y7_original_reply": [
+        2,
+        1,
+        2
+      ]
+    }
+  ],
+  "continuation": "At every P node use the edge of the actual opponent mouth to its N child, then play that N record mouth to its P child; repeat.",
+  "complete_reachable_states": 2417,
+  "maximum_safe_response_rounds": 15,
+  "infinite_geometry_verified": true,
+  "new_game_states": 0
+}
